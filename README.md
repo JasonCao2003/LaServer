@@ -23,16 +23,36 @@ LaServer/
 │       ├── tests/              手动协议回归脚本
 │       ├── tools/              历史抓包分析
 │       └── docs/               协议适配说明
-└── tools/patches/              客户端修补工具
+├── tools/patches/              客户端修补工具
+├── docs/DEPENDENCIES.md        依赖与部署前置条件
+└── requirements.txt            Python 直接依赖清单
 ```
 
 运行时使用的 `data/`、`logs/`、证书和本地配置不纳入版本控制。
 
+完整依赖、安装方法和当前缺失模块见 [项目依赖文档](docs/DEPENDENCIES.md)。
+
 ## 环境要求
 
 - Windows：当前 `sky_boot.py` 使用 Windows 专用启动处理。
-- Python：需要预先准备 Flask、SQLAlchemy、eventlet 等项目依赖；目前尚未提供完整的 Python 依赖清单。
+- Python：需要预先准备 Flask、SQLAlchemy、eventlet 等项目依赖；直接依赖见根目录 `requirements.txt`，尚未锁定版本或完成全新环境验证。
 - Node.js 20 或更新版本及 npm。
+
+## 安装依赖
+
+以下命令在项目根目录执行，使用虚拟环境避免混用 Python 解释器：
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip check
+npm --prefix services/realtime-server ci
+```
+
+`requirements.txt` 包含 11 个源码直接使用的第三方包，尚未锁定版本；全新环境兼容性待验证。Node.js 依赖通过 `package-lock.json` 锁定，使用 `npm ci` 安装。
+
+Tkinter/Tcl-Tk 和 SQLite 支持由 Python 安装提供，无须安装同名 pip 包。当前管理面板缺少必需的本地模块 `game_control_panel.py`、`api_response_manager.py`，需补齐后才能启动，详见[依赖文档](docs/DEPENDENCIES.md#缺失的本地模块)。
 
 ## 本地配置
 
@@ -51,24 +71,24 @@ Copy-Item services/game-api/config/room_config.example.json services/game-api/co
 
 ## 启动
 
+以下命令均在项目根目录执行，先完成依赖安装、本地配置及数据准备。
+
 HTTP 业务服务：
 
 ```powershell
-python -u services/game-api/sky_boot.py
+.\.venv\Scripts\python.exe -u services/game-api/sky_boot.py
 ```
 
 管理面板：
 
 ```powershell
-python apps/admin/admin_panel_client.py
+.\.venv\Scripts\python.exe apps/admin/admin_panel_client.py
 ```
 
 实时联机服务：
 
 ```powershell
-cd services/realtime-server
-npm ci
-npm start
+npm --prefix services/realtime-server start
 ```
 
 联机服务可通过 `ROOM_PORT`、`HTTP_PORT` 等环境变量配置，详见 `src/config/env.js`。与既有实例并行运行时使用独立端口。

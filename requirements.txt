@@ -1,0 +1,15 @@
+# Direct Python dependencies inferred from source imports.
+# Versions are not pinned: a clean installation has not yet been validated.
+# Tkinter/Tcl-Tk must be supplied by the Python installation.
+# Missing local admin modules are documented in docs/DEPENDENCIES.md.
+Flask
+Werkzeug
+Flask-SQLAlchemy
+SQLAlchemy
+flask-sock
+Flask-SocketIO
+eventlet
+cryptography
+PyJWT
+bcrypt
+requests
