@@ -13,21 +13,25 @@ platform.machine() -> platform.uname() -> platform.win32_ver() -> _win32_ver()
 (值取自 sys.getwindowsversion() 和 PROCESSOR_ARCHITECTURE 环境变量; 私服不依赖精确的
 Windows 版本号, 没有任何副作用), 然后原样跑 index.py。
 
+Linux 上跳过 Windows 专用处理。
+
 用法(管理面板已改成用它启动; 手动启动完全一样, 环境变量照旧生效):
     python -u sky_boot.py
 (工作目录无所谓, 里面会自己切到本文件所在的源码根目录)
 """
+from paths import SERVICE_ROOT
 import os
 import platform
 import sys
 
-_win = sys.getwindowsversion()
-_ver = "%d.%d.%d" % (_win.major, _win.minor, _win.build)
-platform.machine = lambda: (os.environ.get("PROCESSOR_ARCHITECTURE") or "AMD64")
-platform.processor = lambda: platform.machine()
-platform.win32_ver = lambda *a, **k: (_ver, _ver, "", "Multiprocessor Free")
+if sys.platform == "win32":
+    _win = sys.getwindowsversion()
+    _ver = "%d.%d.%d" % (_win.major, _win.minor, _win.build)
+    platform.machine = lambda: (os.environ.get("PROCESSOR_ARCHITECTURE") or "AMD64")
+    platform.processor = lambda: platform.machine()
+    platform.win32_ver = lambda *a, **k: (_ver, _ver, "", "Multiprocessor Free")
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = SERVICE_ROOT
 if HERE not in sys.path:
     sys.path.insert(0, HERE)
 os.chdir(HERE)

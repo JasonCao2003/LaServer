@@ -3,6 +3,7 @@
 Sky游戏服务器主入口
 所有接口已模块化，此文件仅负责初始化和启动
 """
+from paths import CERTS_DIR, DATA_DIR, SERVICE_ROOT, SERVER_CONFIG_PATH
 
 from cryptography.hazmat.primitives.asymmetric import ec
 from flask import session
@@ -73,25 +74,25 @@ except Exception as _patch_err:
 
 from urllib.parse import parse_qs, unquote
 import binascii
-from database.models import db
+from infrastructure.database.models import db
 
 # 导入WebSocket处理模块
-import websocket_handler
+import infrastructure.transport.websocket_handler as websocket_handler
 
-from database import migrate_database
+from infrastructure.database import migrate_database
 
-from account import register_account_routes
-from service import register_service_routes
-from starwatch import register_starwatch_routes
+from business.account import register_account_routes
+from business.service import register_service_routes
+from business.starwatch import register_starwatch_routes
 
-from database.models import *
+from infrastructure.database.models import *
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 # Flask应用初始化
-app = Flask(__name__, instance_path=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "instance"))
+app = Flask(__name__, instance_path=os.path.join(DATA_DIR, "instance"))
 sock = Sock(app)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 
@@ -103,10 +104,10 @@ app.config['JSONIFY_MIMETYPE'] = 'application/json; charset=utf-8'
 # SQLAlchemy
 db.init_app(app)
 
-shujuku = 'sqlite:///' + os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'legacy', 'users.db').replace('\\', '/')
+shujuku = 'sqlite:///' + os.path.join(DATA_DIR, 'legacy', 'users.db').replace('\\', '/')
 engine = create_engine(shujuku)
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
+CONFIG_PATH = SERVER_CONFIG_PATH
 
 @lru_cache(maxsize=1)
 def load_config():
@@ -194,14 +195,14 @@ register_starwatch_routes(app)
 # 接口库版本分流: 高版本(>=0.30.0)走接口库静态响应, 旧版完全不受影响(走原动态源码)
 # 排除表(登录/鉴权/开全图开全动作/季节&公告等)无论版本高低都保持动态。
 try:
-    from resources.static_responses import register_static_responses
+    from infrastructure.responses import register_static_responses
     register_static_responses(app)
 except Exception as _e:
     logger.warning(f"接口库版本分流注册跳过: {_e}")
 
 # 热更新(后台源码更新): 注册 /admin/api/hot_reload, 运行中重载接口源码不需重启
 try:
-    from hot_reload import register_hot_reload
+    from infrastructure.runtime.hot_reload import register_hot_reload
     register_hot_reload(app)
     logger.info("热更新接口已注册: /admin/api/hot_reload")
 except Exception as _e:
@@ -273,11 +274,11 @@ code{background:rgba(255,255,255,.1);padding:2px 8px;border-radius:6px;
 </body>
 </html>"""
 if __name__ == '__main__':
-    from request_monitor_middleware import init_request_monitor
+    from infrastructure.monitoring.request_monitor_middleware import init_request_monitor
     init_request_monitor(app)
 
     # ?????? GUI?????????????
-    from request_monitor_gui import start_monitor_gui
+    from infrastructure.monitoring.request_monitor_gui import start_monitor_gui
     start_monitor_gui()
 
     with app.app_context():
@@ -285,8 +286,8 @@ if __name__ == '__main__':
         migrate_database(db)
         # 房间池: 服务器启动时自动创建并保持 3 个空闲房间(所有用户通用)。
         try:
-            from helpers.room_helper import ensure_idle_rooms
-            from database.models import GameServer, ServerAssignment
+            from business.helpers.room_helper import ensure_idle_rooms
+            from infrastructure.database.models import GameServer, ServerAssignment
             n = ensure_idle_rooms(db, GameServer, ServerAssignment)
             logger.info("房间池就绪, 当前空闲房间数: %s", n)
         except Exception as _e:
@@ -315,6 +316,7 @@ if __name__ == '__main__':
     # (端口被占)就自增; 探到可用端口后关闭探测 socket, 再交给 socketio.run 正式绑定。
     import os as _os
     _base = int(_os.environ.get("SKY_PORT", "8443") or "8443")
+    _host = _os.environ.get("SKY_HOST", "::")
 
     # ---- Windows 上让 "::" 监听变成双栈(IPv6 + IPv4) ----
     # 根因: Windows 的 IPV6_V6ONLY 默认是 1(和 Linux 相反)。原来的
@@ -372,7 +374,9 @@ if __name__ == '__main__':
     _last_err = None
     for _p in range(_base, _base + 30):
         try:
-            _probe = eventlet.listen(("::", _p), family=eventlet.green.socket.AF_INET6)
+            _family = (eventlet.green.socket.AF_INET6 if ":" in _host
+                       else eventlet.green.socket.AF_INET)
+            _probe = eventlet.listen((_host, _p), family=_family)
         except Exception as _e:
             _last_err = _e
             print("端口 %d 被占用, 尝试下一个..." % _p, flush=True)
@@ -386,10 +390,10 @@ if __name__ == '__main__':
     print("SKY_LISTEN_PORT=%d" % _chosen, flush=True)
     socketio.run(
         app,
-        host='::',
+        host=_host,
         port=_chosen,
         debug=False,   # 2026-10-23: 关掉 Werkzeug 调试器(内存/安全); 异常仍写日志
         use_reloader=False,
-        keyfile=os.path.join(app.root_path, 'certs', 'privkey.pem'),
-        certfile=os.path.join(app.root_path, 'certs', 'fullchain.pem')
+        keyfile=os.path.join(CERTS_DIR, 'privkey.pem'),
+        certfile=os.path.join(CERTS_DIR, 'fullchain.pem')
     )

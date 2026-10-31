@@ -13,13 +13,20 @@
 - config/event_schedule_low.json   (低版本权威源)
 - config/event_schedule.json       = 高版本 (向后兼容现有面板/服务端默认读取)
 """
+import sys
+from pathlib import Path
+
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from paths import CONFIG_DIR, SERVICE_ROOT
 import json
 import os
 
 NEVER = 9999999999  # 远未来时间戳(绝对秒), 表示"禁用/永不触发"
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CFG = os.path.join(ROOT, "config")
+ROOT = SERVICE_ROOT
+CFG = CONFIG_DIR
 LIB = r"E:\Downloads\That_Sky_Requests-master\That_Sky_Requests-master\account\account_get_event_schedule.jsonc"
 BACKUP_LOW = r"H:\Sky\Sky初始备份\Sky\config\event_schedule.json"
 

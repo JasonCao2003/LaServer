@@ -310,7 +310,7 @@ def kill_port(port, log):
 
 def ensure_ssl_cert(root, log):
     """用 cryptography 生成自签名证书(10年)"""
-    cert_dir = os.path.join(root, "certs")
+    cert_dir = os.path.join(root, "var", "certs")
     os.makedirs(cert_dir, exist_ok=True)
     key_path = os.path.join(cert_dir, "privkey.pem")
     cert_path = os.path.join(cert_dir, "fullchain.pem")
@@ -499,7 +499,7 @@ def remove_upnp(port, log_cb):
 def update_server_config(root, ip, use_https, log, port=None):
     """更新源码 config.json 指向本机地址。多开支持: 端口可传入。"""
     port = port or SERVER_PORT
-    cfg_path = os.path.join(root, "config.json")
+    cfg_path = os.path.join(root, "config", "server.json")
     try:
         with open(cfg_path, "r", encoding="utf-8") as f:
             cfg = json.load(f)
@@ -700,7 +700,7 @@ class UserDB:
 
     def __init__(self, root):
         self.root_dir = root
-        self.path = os.path.join(root, "data", "instance", "users.db")
+        self.path = os.path.join(root, "var", "data", "instance", "users.db")
 
     def _conn(self):
         conn = sqlite3.connect(self.path, timeout=30)
@@ -976,10 +976,10 @@ class UserDB:
                 if client_ver is not None:
                     try:
                         import sys as _sys
-                        _root = os.path.dirname(os.path.abspath(__file__))
+                        _root = self.root_dir
                         if _root not in _sys.path:
                             _sys.path.insert(0, _root)
-                        import outfit_version_db as _ovd
+                        from business.helpers import outfit_version_db as _ovd
                         _names = _ovd.chars_for_version(*client_ver)
                         _items = [{"name": n, "type": "spiritshop",
                                    "ack": True, "created_at": now} for n in _names]
@@ -1318,7 +1318,7 @@ class UserDataEditor(tk.Toplevel):
         super().__init__(master)
         self.root_dir = root_dir
         self.uid = uid
-        self.db_path = os.path.join(root_dir, "data", "instance", "users.db")
+        self.db_path = os.path.join(root_dir, "var", "data", "instance", "users.db")
         self.current_table = None
         self.current_rows = []
 
@@ -4383,7 +4383,7 @@ class AdminPanel(tk.Tk):
         # 首选: 写 show 标记文件, 监控面板(在服务器进程内)轮询到后会自己 deiconify
         # 重新显示, 并带着关闭前的全部数据。这种方式 tkinter 状态一致, 最可靠。
         try:
-            marker = os.path.join(self.root_dir, ".show_monitor")
+            marker = os.path.join(self._state_dir(), ".show_monitor")
             with open(marker, "w", encoding="utf-8") as f:
                 f.write("1")
             self.set_status("已请求唤起请求监控面板")
@@ -4479,7 +4479,7 @@ class AdminPanel(tk.Tk):
     def _resolve_port(self, root_dir):
         """解析本实例端口: <源码目录>/.sky_port > panel_config.server_port > 8443。"""
         try:
-            p = os.path.join(root_dir, ".sky_port")
+            p = os.path.join(root_dir, "var", "data", "runtime", ".sky_port")
             if os.path.isfile(p):
                 with open(p, "r", encoding="utf-8") as f:
                     v = int((f.read() or "").strip())
@@ -4493,7 +4493,7 @@ class AdminPanel(tk.Tk):
             return SERVER_PORT
 
     def _sky_log_path(self, filename):
-        log_dir = os.path.join(self.root_dir, "logs")
+        log_dir = os.path.join(self.root_dir, "var", "logs")
         os.makedirs(log_dir, exist_ok=True)
         return os.path.join(log_dir, filename)
 
@@ -4501,9 +4501,14 @@ class AdminPanel(tk.Tk):
         """服务器运行日志文件(按端口区分), 后台模式下面板用它读日志。"""
         return self._sky_log_path("server_runtime_%d.log" % self.server_port)
 
+    def _state_dir(self):
+        directory = os.path.join(self.root_dir, "var", "data", "runtime")
+        os.makedirs(directory, exist_ok=True)
+        return directory
+
     def _pidfile(self):
         """PID 文件路径(按端口区分, 多开各一份)。"""
-        return os.path.join(self.root_dir, ".sky_server_%d.pid" % self.server_port)
+        return os.path.join(self._state_dir(), ".sky_server_%d.pid" % self.server_port)
 
     def _write_pidfile(self, pid, port):
         try:
@@ -4550,7 +4555,7 @@ class AdminPanel(tk.Tk):
                 if os.path.exists(keep):
                     os.remove(keep)
                 # 同时清掉可能残留的监控窗口"显示"标记
-                showm = os.path.join(self.root_dir, ".show_monitor")
+                showm = os.path.join(self._state_dir(), ".show_monitor")
                 if os.path.exists(showm):
                     os.remove(showm)
             except Exception:
@@ -4859,7 +4864,7 @@ class AdminPanel(tk.Tk):
     def _cf_statefile(self):
         """隧道状态文件(按端口区分)。保存 {pid, url, port}, 供面板重开后附着,
         实现"隧道地址锁定": 只要服务器没停, 隧道进程就一直活着, 地址不变。"""
-        return os.path.join(self.root_dir, ".sky_tunnel_%d.json" % self.server_port)
+        return os.path.join(self._state_dir(), ".sky_tunnel_%d.json" % self.server_port)
 
     def _cf_logfile(self):
         """隧道进程输出日志(按端口区分)。脱离面板的 cloudflared 把输出写到这里,
@@ -6045,7 +6050,7 @@ class InterfaceRegistry:
 
     # -- HTTP 接口包 ---------------------------------------------------------
     def _scan_package(self, kind: str, title: str, pkg: str):
-        pkg_dir = os.path.join(self.root_dir, pkg)
+        pkg_dir = os.path.join(self.root_dir, "business", pkg)
         init_py = os.path.join(pkg_dir, "__init__.py")
         if not os.path.isdir(pkg_dir):
             self.errors.append("%s：目录不存在 %s" % (title, pkg_dir))

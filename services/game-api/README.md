@@ -2,30 +2,60 @@
 
 ## 功能目录
 
-- `sky_boot.py`、`index.py`：Windows 启动引导及 Flask 应用初始化。
-- `account/`、`service/`、`admin/`、`starwatch/`：各类接口。
-- `helpers/`：业务辅助模块、版本适配、好友/货币/魔法、响应覆盖等共享逻辑。
-- `database/`：数据库模型 `models.py` 与迁移代码。
-- `data/instance/`：Flask 运行数据库 `users.db`、魔法配置、留影、场景及社交状态。
-- `data/legacy/users.db`：原根目录数据库，供原独立 SQLAlchemy 引擎使用；与 Flask 数据库分别保留，未合并。
-- `data/monitor_exports/`：HTTP 监控导出、接口缓存与保存标记。
-- `certs/`：TLS 证书与私钥。
-- `resources/static_responses/`：静态响应包、响应数据与分流索引。
-- `resources/images/`：原 PNG 图片资源。
-- `config/`、根目录 `config.json`：游戏与服务配置。
-- `tools/`：配置生成与维护脚本，仍依赖脚本配置的外部数据源。
-- `logs/`：面板、服务与隧道日志。
-- 根目录监控、热重载、WebSocket 等模块：服务基础设施；隧道状态文件保留原位。
+| 目录 | 功能 |
+| --- | --- |
+| `business/account/` | 账号、玩家、好友、背包及商店接口 |
+| `business/service/` | 场景、留影、社交、消息与任务接口 |
+| `business/admin/` | 管理接口 |
+| `business/starwatch/` | 统计与认证接口 |
+| `business/helpers/` | 共享业务逻辑及客户端版本适配 |
+| `infrastructure/database/` | ORM 模型与数据库迁移 |
+| `infrastructure/monitoring/` | 请求采集、中间件、共享队列及监控界面 |
+| `infrastructure/transport/` | WebSocket 连接与消息广播 |
+| `infrastructure/runtime/` | 热重载与统一 JSON 错误处理 |
+| `infrastructure/responses/` | 静态响应分流代码 |
+| `config/` | 服务与游戏规则配置 |
+| `resources/images/` | 图片资源 |
+| `resources/static_responses/` | 静态响应 JSON、清单与排除规则 |
+| `var/data/instance/` | 主数据库、魔法配置及游戏状态 |
+| `var/data/legacy/` | 原独立数据库，不与主库合并 |
+| `var/data/monitor_exports/` | 监控导出与缓存 |
+| `var/data/runtime/` | 面板 PID、隧道状态、端口及显示标记 |
+| `var/logs/` | 服务、面板与隧道日志 |
+| `var/certs/` | 证书与私钥 |
+| `tools/` | 配置生成与维护脚本 |
 
-## 启动与维护
+根目录保留 `index.py`、`sky_boot.py`、`paths.py`、各平台启动脚本、环境变量文件和本说明。
 
-项目根目录执行：`python -u services/game-api/sky_boot.py`。
-管理面板：`python apps/admin/admin_panel_client.py`。
+## 路径与导入约定
 
-业务辅助模块使用 `from helpers.xxx import ...`；模型使用 `from database.models import ...`。静态响应包为 `resources.static_responses`，热重载引用已同步。
+`paths.py` 集中定义服务根目录、配置、资源、数据库、日志和证书位置；模块不应通过固定数量的父目录推测服务根目录。路径模块导入时不会创建目录或打开数据库。
 
-Flask 的实例目录显式设置为绝对路径 `data/instance`；独立引擎使用 `data/legacy/users.db` 的绝对路径。管理面板、响应覆盖、监控与存档代码均指向同一 Flask 数据库位置。
+- 业务导入：`business.account`、`business.helpers.*` 等。
+- 数据模型：`infrastructure.database.models`。
+- 基础设施：`infrastructure.monitoring.*`、`infrastructure.transport.*`、`infrastructure.runtime.*`。
+- 静态响应：代码在 `infrastructure.responses`，数据在 `resources/static_responses/`。
 
-此次调整需在下次启动进程时生效，不应在旧进程内仅热重载。外部启动脚本若硬编码旧数据库、证书或资源路径，需要同步修改。不要公开数据库、私钥或监控记录。
+## 启动与配置
 
-原始代码副本：`bak/sky-module-layout-before-20261031/`；移动清单：`bak/sky-module-layout-moves-20261031.csv`（均相对于项目根目录）。
+从项目根目录按 [启动文档](../../docs/STARTUP.md) 执行；原 `sky_boot.py` 启动入口保持不变。
+
+服务配置示例为 `config/server.example.json`，本机文件为 `config/server.json`。房间配置仍为 `config/room_config.json`。证书文件为 `var/certs/fullchain.pem` 和 `var/certs/privkey.pem`。
+
+独立打开监控界面：在本目录执行 `python -m infrastructure.monitoring.request_monitor_gui`。从项目根目录也可执行 `python services/game-api/infrastructure/monitoring/request_monitor_gui.py`。
+
+本次目录迁移需要重启进程，不能仅在旧进程中热重载。外部脚本若硬编码原来的数据库、证书或源码路径，需同步更新。管理面板已使用新目录扫描源码并访问运行文件。
+
+`var/` 整体被 Git 忽略。不要提交数据库、私钥、监控历史或隧道状态。维护脚本仍依赖外部数据源，执行前检查输入路径。
+
+## 验证
+
+从项目根目录使用准备好的 Python 环境执行：
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+目录迁移回归覆盖配置响应读取、静态响应资源定位、监控热重载队列、WebSocket 模块一致性和管理面板临时数据库。测试不启动监听服务，不修改生产数据库；完整客户端联机仍需另外验证。
+
+迁移前代码副本及文件移动清单位于项目根目录 `bak/functional-layout-*/`。

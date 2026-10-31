@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-- `services/game-api/` contains the Python Flask server. `index.py` initializes the application; `account/`, `admin/`, and `service/` hold endpoint and service code. Shared behavior lives in `helpers/`, with database models in `database/models.py`.
+- `services/game-api/` contains the Python Flask server. `index.py` initializes the application; `business/account/`, `business/admin/`, and `business/service/` hold endpoint and service code. Shared behavior lives in `business/helpers/`, with database models in `infrastructure/database/models.py`.
 - `services/game-api/resources/images/` and `services/game-api/resources/static_responses/` contain image assets and response fixtures. Treat database and runtime files as operational state.
 - `services/realtime-server/src/` contains the Node.js ES-module service, organized into `api`, `config`, `domain`, `protocol`, `services`, `session`, `transport`, and `observability`. Protocol adaptation notes are in `services/realtime-server/docs/`.
 - The admin client is in `apps/admin/admin_panel_client.py`; binary patch utilities are in `tools/patches/`. Edit active source files rather than `*.bak*`, `src.bak_*`, or archives under `bak/`.
@@ -38,6 +38,6 @@ Never include private keys, credentials, account databases, or raw player packet
 
 ## Runtime Layout
 
-- Flask instance data is in `services/game-api/data/instance/`; the separate legacy database is in `services/game-api/data/legacy/`. Do not merge them.
-- Certificates and private keys are in `services/game-api/certs/`. Logs are in each service's `logs/` directory.
-- Business imports use `helpers.<module>` and `database.models`; static response imports use `resources.static_responses`.
+- Flask instance data is in `services/game-api/var/data/instance/`; the separate legacy database is in `services/game-api/var/data/legacy/`. Do not merge them.
+- Certificates and private keys are in `services/game-api/var/certs/`. Logs are in each service's `logs/` directory.
+- Business imports use `business.helpers.<module>` and `infrastructure.database.models`; static response code is in `infrastructure.responses`, with data in `resources/static_responses/`.

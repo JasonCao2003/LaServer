@@ -5,13 +5,20 @@
 每项: {daily_quest_def_id, stat_type, cn} —— cn 为按关键词推导的中文名(中英对照用)。
 面板"添加任务"弹窗读取本目录; 服务端每日随机也从本目录取池。
 """
+import sys
+from pathlib import Path
+
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from paths import CONFIG_DIR, SERVICE_ROOT
 import json
 import os
 import re
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = SERVICE_ROOT
 DB_QUEST = r"E:\Downloads\server\quest_defs.json"
-OUT = os.path.join(ROOT, "config", "daily_quest_catalog.json")
+OUT = os.path.join(CONFIG_DIR, "daily_quest_catalog.json")
 
 # 关键词 -> 中文 (用于把 quest id / stat_type 翻成可读中文)
 KW = [

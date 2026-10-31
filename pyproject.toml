@@ -1,0 +1,21 @@
+[project]
+name = "laserver"
+version = "0.1.0"
+description = "SkyLightAwaits game API and administration tools"
+requires-python = ">=3.15,<3.16"
+dependencies = [
+    "Flask",
+    "Werkzeug",
+    "Flask-SQLAlchemy",
+    "SQLAlchemy",
+    "flask-sock",
+    "Flask-SocketIO",
+    "eventlet",
+    "cryptography",
+    "PyJWT",
+    "bcrypt",
+    "requests",
+]
+
+[tool.uv]
+package = false
