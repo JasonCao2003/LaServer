@@ -1,0 +1,59 @@
+{
+  "status_unlocks": [
+    {
+      "name": "Dawn_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_TrialsWater_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_TrialsFire_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_TrialsEarth_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_TrialsAir_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_Start_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_Shrine_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "Dawn_Plateau_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    },
+    {
+      "name": "DawnCave_found",
+      "type": "level",
+      "ack": true,
+      "unlocked_at": 1689208565
+    }
+  ],
+  "status_unlocks_total_count": 9
+}

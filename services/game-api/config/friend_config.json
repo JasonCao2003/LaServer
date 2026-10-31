@@ -1,0 +1,15 @@
+{
+  "_comment": "好友关系开关。这个文件每次调用都重新读, 改完存盘立刻生效, 不用重启私服。(.py 改动才需要点热更新)",
+  "_keys": {
+    "auto_friend": "是否自动补建好友关系行。true=开(默认)。false=关: 只有'送蜡烛加好友'和主控面板的'加好友'会建关系。",
+    "auto_light_all": "是否把'同一关卡的在线玩家'全部自动点亮(=建好友关系)。默认 false —— 开了'人人同房'之后全服玩家同一个 levelId, 打开它会让任何两个账号只要同时在线就自动互为好友(新号什么都没做就出现在对方好友列表里)。",
+    "placeholder_users": "客户端 get_friends 点名的玩家从没登录过本服时, 是否补一行占位账号(不补的话客户端会 200~300ms 无限追问, 点亮状态也落不了库)。默认 true。",
+    "lit_grants_abilities": "被'点亮'的玩家算不算加了好友。默认 false: 点亮只登记一条不含好友树能力的条目(abilities=[]), 好友树里不出现'加好友'节点, 要真成为好友得在游戏里送蜡烛; true 才是老行为(点亮即送整套好友树)。",
+    "auto_create_account": "无库就建号: 客户端拿着库里没有的 id 来请求时, 用同一个 id 补一行(登录 /account/auth/login 和 /service/trust/api/v1/get_capped 都走这条)。默认 true。清空账号库之后客户端不用重装、不用换号就能直接进游戏(账号按原 id 重建, 数据是新的)。false=老行为(登录回 用户不存在)。"
+  },
+  "auto_friend": true,
+  "auto_light_all": false,
+  "placeholder_users": true,
+  "lit_grants_abilities": false,
+  "auto_create_account": true
+}

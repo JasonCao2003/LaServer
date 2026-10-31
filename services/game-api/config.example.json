@@ -1,0 +1,14 @@
+{
+  "latest_build_version": 100000,
+  "maintenance_mode": false,
+  "app_store_uri": "https://127.0.0.1:8443",
+  "tos_url": "https://127.0.0.1:8443/tos",
+  "pp_url": "https://127.0.0.1:8443/pp",
+  "has_reply": false,
+  "gpu_rating": 2000,
+  "hash_id": 2557293595,
+  "all_users_allunlock": true,
+  "all_user_allcollects": true,
+  "all_user_allhaswingbuff": true,
+  "app_badge_number": 0
+}

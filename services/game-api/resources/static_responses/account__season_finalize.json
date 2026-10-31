@@ -1,0 +1,30 @@
+{
+  "currency": {
+    "candles": 5,
+    "wax": 146
+  },
+  "result": [
+    "season_22"
+  ],
+  "update_forge_rates": [
+    {
+      "current_level": 4,
+      "current_tier": 26,
+      "enabled": true,
+      "level_completion": 0.0,
+      "level_tier_count": 5,
+      "level_tier_index": 0,
+      "reset_acknowledged": true,
+      "source_type": "wax",
+      "tier_completion": 0.0
+    }
+  ],
+  "update_unlocks": [
+    {
+      "ack": false,
+      "created_at": 0,
+      "name": "season_finish_22",
+      "type": "season"
+    }
+  ]
+}

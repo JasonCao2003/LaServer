@@ -1,0 +1,25 @@
+{
+  "motd": "Not sure what to record with your Shared Memory spell? The Shared Memory shrine in Aviary Village has a prompt to get your ideas flowing!",
+  "motd_buttons": [
+    {
+      "img": "Icon_instagram",
+      "url": "https://www.instagram.com/thatskygame/?hl=en"
+    },
+    {
+      "img": "Icon_facebook",
+      "url": "https://www.facebook.com/thatskygame/"
+    },
+    {
+      "img": "Icon_twitter",
+      "url": "https://twitter.com/thatskygame?lang=en"
+    },
+    {
+      "img": "Icon_discord",
+      "url": "https://discord.gg/thatskygame"
+    }
+  ],
+  "motd_season_start": 1721026800,
+  "motd_timestamp": 1720767600,
+  "motd_title": "Shared Memories",
+  "motd_version": 137688
+}

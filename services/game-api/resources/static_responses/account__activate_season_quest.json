@@ -1,0 +1,9 @@
+{
+  "season_quest_activated": [
+    {
+      "activated": true,
+      "quest_id": "world_quest_rain_tsktsk",
+      "start_value": 0.0
+    }
+  ]
+}

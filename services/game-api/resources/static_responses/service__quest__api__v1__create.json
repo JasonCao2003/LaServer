@@ -1,0 +1,32 @@
+{
+  "expiry_time": 1768377599,
+  "is_scheduled_quest": false,
+  "previously_completed": false,
+  "quest_giver": "doublefive",
+  "quest_id": "76529d48-0f4c-4a31-899c-f5de6ce10dca",
+  "quest_name": "lightseeker_prairie",
+  "quest_type": "daily",
+  "start_time": 1768292914,
+  "stats": {
+    "completion_requirements": [
+      {
+        "stat_type": "lightseeker_prairie_count",
+        "value": 1
+      }
+    ],
+    "init_stats": [
+      {
+        "stat_type": "lightseeker_prairie_count",
+        "value": 0
+      }
+    ],
+    "target_values": [
+      {
+        "stat_type": "lightseeker_prairie_count",
+        "value": 1
+      }
+    ]
+  },
+  "status": "active",
+  "success": true
+}

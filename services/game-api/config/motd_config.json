@@ -1,0 +1,27 @@
+{
+    "motd": "土豆好吃\n土豆好吃\n土豆好吃\n土豆好吃\n土豆好吃\n土豆好吃",
+    "motd_title": "土豆",
+    "motd_timestamp": 1781872234,
+    "motd_version": 137688,
+    "motd_buttons": [
+        {
+            "url": "https://v.douyin.com/b4jTZntwrbk/ 8@7.com :5pm",
+            "img": "Icon_tiktok"
+        },
+        {
+            "url": "https://discord.gg/PhQRy32D9",
+            "img": "Icon_discord"
+        },
+        {
+            "url": "https://qm.qq.com/q/k1HUt9n1K2",
+            "img": "Icon_twitter"
+        },
+        {
+            "url": "https://qm.qq.com/q/k1HUt9n1K2",
+            "img": "Icon_twitter"
+        }
+    ],
+    "motd_season_end": 1781276401,
+    "motd_timestamp_mode": "fixed",
+    "motd_season_start": 1781276401
+}

@@ -1,0 +1,15 @@
+{
+  "app_store_uri": "itms-apps://itunes.apple.com/app/id1462117269",
+  "country_code": "BD",
+  "cs_db_enabled": false,
+  "cs_enabled": true,
+  "latest_build_version": 275000,
+  "maintenance_mode": false,
+  "maintenance_msg": "",
+  "min_gpu_rating": 540,
+  "tos": {
+    "pp_url": "https://legal.thatskygame.com/?p=hc/en/17-sky-children-of-the-light/faq/461-privacy-policy/",
+    "tos_url": "https://legal.thatskygame.com/?p=hc/en/17-sky-children-of-the-light/faq/460-eula-terms-of-service/",
+    "version": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "人人同房配置。find_previous_or_empty 把所有玩家都指向 ip_host:realtime_port 这一个地址,于是所有人连进同一个 ENet 房间、互相可见。ip_host 必须是客户端能到达的 IPv4 字面量(<16字符,不能用域名/IPv6)。三种填法见下方 _howto。",
+  "_howto": {
+    "局域网": "ip_host 填主机内网IP(如 192.168.10.9),realtime_port 填 25565。客户端与主机同一WiFi即可。私服会自动跟随本机局域网IP: 若这里的私网IP已不是本机地址(换WiFi/DHCP变址), 会实时换成探测到的本机IP并把新地址写回本文件, 无需手改。",
+    "拉黑推送": "push_friends_updated: 屏蔽/解除屏蔽好友时, 主动给被拉黑方推一条 friends_updated 消息, 让它立刻刷新好友状态(否则被拉黑的人界面没反应, 要重登才变)。false=关闭该推送。也可用环境变量 SKY_PUSH_FRIENDS_UPDATED=0 临时关。",
+    "内网穿透(SakuraFrp等,推荐国内)": "建一条UDP隧道指向本机127.0.0.1:25565。把穿透服务给的公网地址里的IP填进 ip_host,端口填进 realtime_port。若只给域名,先 nslookup 取IPv4再填。",
+    "VPS转发(frp)": "VPS公网IPv4填 ip_host,VPS上监听的UDP端口填 realtime_port,frpc把它转发到本机25565。"
+  },
+  "single_shared_room": true,
+  "lan_udp_enabled": true,
+  "ip_host": "127.0.0.1",
+  "realtime_port": 25566,
+  "host": "127.0.0.1",
+  "base_port": 42578,
+  "region": "default",
+  "push_friends_updated": true
+}

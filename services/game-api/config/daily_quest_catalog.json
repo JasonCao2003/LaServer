@@ -1,0 +1,2129 @@
+{
+  "daily_quest_catalog": [
+    {
+      "daily_quest_def_id": "ap28_daily_generic",
+      "stat_type": "take_companion",
+      "cn": "每日·通用"
+    },
+    {
+      "daily_quest_def_id": "bloom_harvesting",
+      "stat_type": "bloom_harvesting",
+      "cn": "花憩·收获"
+    },
+    {
+      "daily_quest_def_id": "bloom_message",
+      "stat_type": "bloom_message",
+      "cn": "花憩·留言"
+    },
+    {
+      "daily_quest_def_id": "bloom_music",
+      "stat_type": "bloom_music",
+      "cn": "花憩·音乐"
+    },
+    {
+      "daily_quest_def_id": "bloom_watering",
+      "stat_type": "bloom_watering",
+      "cn": "花憩·浇水"
+    },
+    {
+      "daily_quest_def_id": "bluebirdchase_1",
+      "stat_type": "blue_bird_chase_count",
+      "cn": "鸟·青鸟·追逐 1"
+    },
+    {
+      "daily_quest_def_id": "bluebirdchase_2",
+      "stat_type": "blue_bird_chase_count",
+      "cn": "鸟·青鸟·追逐 2"
+    },
+    {
+      "daily_quest_def_id": "bluebirdchase_3",
+      "stat_type": "blue_bird_chase_count",
+      "cn": "鸟·青鸟·追逐 3"
+    },
+    {
+      "daily_quest_def_id": "bluebirdchase_4",
+      "stat_type": "blue_bird_chase_count",
+      "cn": "鸟·青鸟·追逐 4"
+    },
+    {
+      "daily_quest_def_id": "bluebirdfeather_1",
+      "stat_type": "blue_bird_feather_count",
+      "cn": "鸟·青鸟·羽毛 1"
+    },
+    {
+      "daily_quest_def_id": "bluebirdfeather_2",
+      "stat_type": "blue_bird_feather_count",
+      "cn": "鸟·青鸟·羽毛 2"
+    },
+    {
+      "daily_quest_def_id": "bluebirdfeather_3",
+      "stat_type": "blue_bird_feather_count",
+      "cn": "鸟·青鸟·羽毛 3"
+    },
+    {
+      "daily_quest_def_id": "bluebirdfeather_4",
+      "stat_type": "blue_bird_feather_count",
+      "cn": "鸟·青鸟·羽毛 4"
+    },
+    {
+      "daily_quest_def_id": "bow_at_a_player",
+      "stat_type": "bowed_at_player_count",
+      "cn": "bow_at_a_player"
+    },
+    {
+      "daily_quest_def_id": "catch_pumpkin_crab",
+      "stat_type": "catch_pumpkin_crab",
+      "cn": "螃蟹"
+    },
+    {
+      "daily_quest_def_id": "change_cape",
+      "stat_type": "cape_change_count",
+      "cn": "change_cape"
+    },
+    {
+      "daily_quest_def_id": "change_feet",
+      "stat_type": "feet_change_count",
+      "cn": "change_feet"
+    },
+    {
+      "daily_quest_def_id": "change_hair",
+      "stat_type": "hair_change_count",
+      "cn": "change_hair"
+    },
+    {
+      "daily_quest_def_id": "change_hat",
+      "stat_type": "hat_change_count",
+      "cn": "change_hat"
+    },
+    {
+      "daily_quest_def_id": "change_horn",
+      "stat_type": "horn_change_count",
+      "cn": "change_horn"
+    },
+    {
+      "daily_quest_def_id": "change_mask",
+      "stat_type": "mask_change_count",
+      "cn": "change_mask"
+    },
+    {
+      "daily_quest_def_id": "change_neck",
+      "stat_type": "neck_change_count",
+      "cn": "change_neck"
+    },
+    {
+      "daily_quest_def_id": "change_pants",
+      "stat_type": "pants_change_count",
+      "cn": "change_pants"
+    },
+    {
+      "daily_quest_def_id": "change_prop",
+      "stat_type": "prop_change_count",
+      "cn": "change_prop"
+    },
+    {
+      "daily_quest_def_id": "cherry_sappling_dusk_01",
+      "stat_type": "cherry_sappling_dusk_01_time",
+      "cn": "暮土 01"
+    },
+    {
+      "daily_quest_def_id": "cherry_sappling_night_01",
+      "stat_type": "cherry_sappling_night_01_time",
+      "cn": "夜晚 01"
+    },
+    {
+      "daily_quest_def_id": "cherry_sappling_prairie_01",
+      "stat_type": "cherry_sappling_prairie_01_time",
+      "cn": "云野 01"
+    },
+    {
+      "daily_quest_def_id": "cherry_sappling_rain_01",
+      "stat_type": "cherry_sappling_rain_01_time",
+      "cn": "cherry_sappling_rain_01 01"
+    },
+    {
+      "daily_quest_def_id": "cherry_sappling_sunset_01",
+      "stat_type": "cherry_sappling_sunset_01_time",
+      "cn": "cherry_sappling_sunset_01 01"
+    },
+    {
+      "daily_quest_def_id": "color_voted_for_kite",
+      "stat_type": "color_voted_for_kite",
+      "cn": "color_voted_for_kite"
+    },
+    {
+      "daily_quest_def_id": "companion_airplanearms_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_approve_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_balltrick_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_breakdance_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_cuteclap_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_dizzy_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_flag_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_jellydance_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴·水母"
+    },
+    {
+      "daily_quest_def_id": "companion_lighthorn_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴·点亮"
+    },
+    {
+      "daily_quest_def_id": "companion_revolvingdance_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_secrethandshake_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_whisper_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "companion_write_spend_time_medium",
+      "stat_type": "spend_companion_time",
+      "cn": "同伴"
+    },
+    {
+      "daily_quest_def_id": "craft_a_thing",
+      "stat_type": "friend_count",
+      "cn": "craft_a_thing"
+    },
+    {
+      "daily_quest_def_id": "do_competition_play",
+      "stat_type": "do_competition_play_sports",
+      "cn": "do_competition_play"
+    },
+    {
+      "daily_quest_def_id": "domusic_location1_1",
+      "stat_type": "bowed_at_player_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location1_2",
+      "stat_type": "non_unique_high_five_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location2_1",
+      "stat_type": "new_acquaintance_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location2_2",
+      "stat_type": "collectible_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location3_1",
+      "stat_type": "light_candle_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location3_2",
+      "stat_type": "forged_candle_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location4_1",
+      "stat_type": "sent_gift_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location4_2",
+      "stat_type": "wave_at_friend_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location5_1",
+      "stat_type": "new_acquaintance_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location5_2",
+      "stat_type": "night_collectibles_collected_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location5_3",
+      "stat_type": "light_candle_count",
+      "cn": "音乐 3"
+    },
+    {
+      "daily_quest_def_id": "domusic_location6_1",
+      "stat_type": "express_an_emote_to_friends_count",
+      "cn": "音乐 1"
+    },
+    {
+      "daily_quest_def_id": "domusic_location6_2",
+      "stat_type": "forged_candle_count",
+      "cn": "音乐 2"
+    },
+    {
+      "daily_quest_def_id": "domusic_location6_3",
+      "stat_type": "bowed_at_player_count",
+      "cn": "音乐 3"
+    },
+    {
+      "daily_quest_def_id": "dostyle_dusk_triangle",
+      "stat_type": "pants_change_count",
+      "cn": "暮土"
+    },
+    {
+      "daily_quest_def_id": "dostyle_dusk_triangle_2",
+      "stat_type": "runway_recording_shrine_view_count",
+      "cn": "暮土 2"
+    },
+    {
+      "daily_quest_def_id": "dostyle_duskmid",
+      "stat_type": "mask_change_count",
+      "cn": "暮土"
+    },
+    {
+      "daily_quest_def_id": "dostyle_night2",
+      "stat_type": "runway_recording_shrine_walk_count",
+      "cn": "夜晚"
+    },
+    {
+      "daily_quest_def_id": "dostyle_night2_2",
+      "stat_type": "non_unique_hand_hold_count",
+      "cn": "夜晚 2"
+    },
+    {
+      "daily_quest_def_id": "dostyle_night_paintedworld",
+      "stat_type": "bowed_at_player_count",
+      "cn": "夜晚"
+    },
+    {
+      "daily_quest_def_id": "dostyle_prairie_island",
+      "stat_type": "jellyfish_charge_count",
+      "cn": "云野"
+    },
+    {
+      "daily_quest_def_id": "dostyle_prairie_island_2",
+      "stat_type": "non_unique_high_five_count",
+      "cn": "云野 2"
+    },
+    {
+      "daily_quest_def_id": "dostyle_prairie_nestandkeeper",
+      "stat_type": "express_an_emote_to_friends_count",
+      "cn": "云野"
+    },
+    {
+      "daily_quest_def_id": "dostyle_prairie_wildlifepark",
+      "stat_type": "hair_change_count",
+      "cn": "云野"
+    },
+    {
+      "daily_quest_def_id": "dostyle_rain",
+      "stat_type": "neck_change_count",
+      "cn": "dostyle_rain"
+    },
+    {
+      "daily_quest_def_id": "dostyle_rain_2",
+      "stat_type": "prop_change_count",
+      "cn": "dostyle_rain_2 2"
+    },
+    {
+      "daily_quest_def_id": "dostyle_rainshelter",
+      "stat_type": "visit_rain_grandmatable_count",
+      "cn": "dostyle_rainshelter"
+    },
+    {
+      "daily_quest_def_id": "dostyle_yetipark",
+      "stat_type": "cape_change_count",
+      "cn": "dostyle_yetipark"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_3",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_3 3"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_island_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_island_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_island_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_island_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_village_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_village_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_village_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_village_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_wildlifepark_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_wildlifepark_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_day_wildlifepark_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_day_wildlifepark_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_dusk_1",
+      "stat_type": "do_treasure_count",
+      "cn": "暮土 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_dusk_2",
+      "stat_type": "do_treasure_count",
+      "cn": "暮土 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_night_1",
+      "stat_type": "do_treasure_count",
+      "cn": "夜晚 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_night_2",
+      "stat_type": "do_treasure_count",
+      "cn": "夜晚 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_night_3",
+      "stat_type": "do_treasure_count",
+      "cn": "夜晚 3"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_rain_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_rain_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_rain_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_rain_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_rain_3",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_rain_3 3"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_sunset_1",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_sunset_1 1"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_sunset_2",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_sunset_2 2"
+    },
+    {
+      "daily_quest_def_id": "dotreasure_sunset_3",
+      "stat_type": "do_treasure_count",
+      "cn": "dotreasure_sunset_3 3"
+    },
+    {
+      "daily_quest_def_id": "emote_with_players",
+      "stat_type": "emote_with_player_count",
+      "cn": "动作"
+    },
+    {
+      "daily_quest_def_id": "express_an_emote_to_a_friend",
+      "stat_type": "express_an_emote_to_friends_count",
+      "cn": "动作"
+    },
+    {
+      "daily_quest_def_id": "feast_fishing",
+      "stat_type": "feast_fishing_catch_count",
+      "cn": "鱼"
+    },
+    {
+      "daily_quest_def_id": "feast_play_race",
+      "stat_type": "feast_race_count",
+      "cn": "竞速"
+    },
+    {
+      "daily_quest_def_id": "feast_play_skyball",
+      "stat_type": "feast_skyball_time",
+      "cn": "feast_play_skyball"
+    },
+    {
+      "daily_quest_def_id": "feast_snowball_hit_avatar",
+      "stat_type": "feast_snowball_avatar_hits",
+      "cn": "feast_snowball_hit_avatar"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_earth",
+      "stat_type": "fetchlight_earth_count",
+      "cn": "寻光·点亮"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_fire",
+      "stat_type": "fetchlight_fire_count",
+      "cn": "寻光·点亮"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_mind",
+      "stat_type": "fetchlight_mind_count",
+      "cn": "寻光·点亮"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_void",
+      "stat_type": "fetchlight_void_count",
+      "cn": "寻光·点亮"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_water",
+      "stat_type": "fetchlight_water_count",
+      "cn": "寻光·浇水·点亮"
+    },
+    {
+      "daily_quest_def_id": "fetchlight_wind",
+      "stat_type": "fetchlight_wind_count",
+      "cn": "寻光·点亮"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_flowers_1",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_flowers_1 1"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_flowers_2",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_flowers_2 2"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_rolling",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_rolling"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_sleeping_1",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_sleeping_1 1"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_sleeping_2",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_sleeping_2 2"
+    },
+    {
+      "daily_quest_def_id": "find_cafe_sleeping_3",
+      "stat_type": "cafe_quest_found",
+      "cn": "find_cafe_sleeping_3 3"
+    },
+    {
+      "daily_quest_def_id": "fly_with_a_manta",
+      "stat_type": "bird_attach_count",
+      "cn": "飞行·蝠鲼"
+    },
+    {
+      "daily_quest_def_id": "follow_another_player",
+      "stat_type": "follow_count",
+      "cn": "follow_another_player"
+    },
+    {
+      "daily_quest_def_id": "forge_a_candle",
+      "stat_type": "forged_candle_count",
+      "cn": "蜡烛"
+    },
+    {
+      "daily_quest_def_id": "high_five_someone",
+      "stat_type": "non_unique_high_five_count",
+      "cn": "high_five_someone"
+    },
+    {
+      "daily_quest_def_id": "hold_someones_hand",
+      "stat_type": "non_unique_hand_hold_count",
+      "cn": "hold_someones_hand"
+    },
+    {
+      "daily_quest_def_id": "honk_at_players",
+      "stat_type": "honk_at_player_count",
+      "cn": "honk_at_players"
+    },
+    {
+      "daily_quest_def_id": "hug_someone",
+      "stat_type": "non_unique_hug_count",
+      "cn": "拥抱"
+    },
+    {
+      "daily_quest_def_id": "light_20_candles",
+      "stat_type": "light_candle_count",
+      "cn": "蜡烛·点亮"
+    },
+    {
+      "daily_quest_def_id": "light_mischief_cannon",
+      "stat_type": "light_mischief_cannon",
+      "cn": "点亮"
+    },
+    {
+      "daily_quest_def_id": "light_mischief_cauldron",
+      "stat_type": "light_mischief_cauldron",
+      "cn": "点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_day_birdnest",
+      "stat_type": "lightseeker_prairie_count",
+      "cn": "寻光者·鸟·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_day_prairievillage",
+      "stat_type": "lightseeker_prairie_count",
+      "cn": "寻光者·云野·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_dusk_graveyard",
+      "stat_type": "lightseeker_wasteland_count",
+      "cn": "寻光者·暮土·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_dusk_triangle",
+      "stat_type": "lightseeker_wasteland_count",
+      "cn": "寻光者·暮土·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_night_floor4",
+      "stat_type": "lightseeker_vault_count",
+      "cn": "寻光者·夜晚·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_night_shelter",
+      "stat_type": "lightseeker_vault_count",
+      "cn": "寻光者·夜晚·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_rain_basecamp",
+      "stat_type": "lightseeker_forest_count",
+      "cn": "寻光者·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_rain_rainforest",
+      "stat_type": "lightseeker_forest_count",
+      "cn": "寻光者·雨林·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_rain_skyway",
+      "stat_type": "lightseeker_forest_count",
+      "cn": "寻光者·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_sunset_citadel",
+      "stat_type": "lightseeker_valley_count",
+      "cn": "寻光者·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_sunset_race",
+      "stat_type": "lightseeker_valley_count",
+      "cn": "寻光者·竞速·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker3_sunset_yetipark",
+      "stat_type": "lightseeker_valley_count",
+      "cn": "寻光者·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker_forest",
+      "stat_type": "lightseeker_forest_count",
+      "cn": "寻光者·雨林·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker_prairie",
+      "stat_type": "lightseeker_prairie_count",
+      "cn": "寻光者·云野·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker_valley",
+      "stat_type": "lightseeker_valley_count",
+      "cn": "寻光者·霞谷·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker_vault",
+      "stat_type": "lightseeker_vault_count",
+      "cn": "寻光者·禁阁·点亮"
+    },
+    {
+      "daily_quest_def_id": "lightseeker_wasteland",
+      "stat_type": "lightseeker_wasteland_count",
+      "cn": "寻光者·暮土·点亮"
+    },
+    {
+      "daily_quest_def_id": "make_a_new_acquaintance",
+      "stat_type": "new_acquaintance_count",
+      "cn": "make_a_new_acquaintance"
+    },
+    {
+      "daily_quest_def_id": "meditate_dusk_crabfields",
+      "stat_type": "meditate_dusk_crabfields_count",
+      "cn": "暮土·螃蟹·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_dusk_duskmid",
+      "stat_type": "meditate_dusk_duskmid_count",
+      "cn": "暮土·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_dusk_graveyard",
+      "stat_type": "meditate_dusk_graveyard_count",
+      "cn": "暮土·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_dusk_main",
+      "stat_type": "meditate_dusk_main_count",
+      "cn": "暮土·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_dusk_oasis",
+      "stat_type": "meditate_dusk_oasis_count",
+      "cn": "暮土·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_night_main",
+      "stat_type": "meditate_night_main_count",
+      "cn": "夜晚·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_night_main2",
+      "stat_type": "meditate_night_main2_count",
+      "cn": "夜晚·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_night_night2",
+      "stat_type": "meditate_night_night2_count",
+      "cn": "夜晚·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_butterfly",
+      "stat_type": "meditate_prairie_butterfly_count",
+      "cn": "云野·冥想·飞行"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_cave",
+      "stat_type": "meditate_prairie_cave_count",
+      "cn": "云野·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_island",
+      "stat_type": "meditate_prairie_island_count",
+      "cn": "云野·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_nestkeeper",
+      "stat_type": "meditate_prairie_nestkeeper_count",
+      "cn": "云野·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_village_faerie",
+      "stat_type": "meditate_prairie_village_faerie_count",
+      "cn": "云野·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_prairie_village_koi",
+      "stat_type": "meditate_prairie_village_koi_count",
+      "cn": "云野·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_rain_main",
+      "stat_type": "meditate_rain_main_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_rain_rainend",
+      "stat_type": "meditate_rain_rainend_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_rain_rainforest",
+      "stat_type": "meditate_rain_rainforest_count",
+      "cn": "雨林·冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_rain_rainmid",
+      "stat_type": "meditate_rain_rainmid_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_rain_shelter",
+      "stat_type": "meditate_rain_shelter_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_sunset_citadel",
+      "stat_type": "meditate_sunset_citadel_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_sunset_citadel2",
+      "stat_type": "meditate_sunset_citadel2_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_sunset_main",
+      "stat_type": "meditate_sunset_main_count",
+      "cn": "冥想"
+    },
+    {
+      "daily_quest_def_id": "meditate_sunset_raceend",
+      "stat_type": "meditate_sunset_raceend_count",
+      "cn": "冥想·竞速"
+    },
+    {
+      "daily_quest_def_id": "melt_10_darkstones",
+      "stat_type": "darkstone_melted_count",
+      "cn": "暗·石"
+    },
+    {
+      "daily_quest_def_id": "mischief_broomrace",
+      "stat_type": "mischief_broomrace",
+      "cn": "竞速"
+    },
+    {
+      "daily_quest_def_id": "pick_up_1_crab",
+      "stat_type": "pick_up_crab_count",
+      "cn": "螃蟹"
+    },
+    {
+      "daily_quest_def_id": "pickup_30_wax",
+      "stat_type": "wax_pickup_count",
+      "cn": "拾取·蜡"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_cloudcollect",
+      "stat_type": "do_competition_play_sports",
+      "cn": "收集"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_crabrace",
+      "stat_type": "do_competition_play_sports",
+      "cn": "螃蟹·竞速"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_rainrace",
+      "stat_type": "do_competition_play_sports",
+      "cn": "竞速"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_speedskate",
+      "stat_type": "do_competition_play_sports",
+      "cn": "play_tot_sport_speedskate"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_voidcollect",
+      "stat_type": "do_competition_play_sports",
+      "cn": "收集"
+    },
+    {
+      "daily_quest_def_id": "play_tot_sport_wingsuiting",
+      "stat_type": "do_competition_play_sports",
+      "cn": "play_tot_sport_wingsuiting"
+    },
+    {
+      "daily_quest_def_id": "rainbow_rainbow_dusk_01",
+      "stat_type": "rainbow_rainbow_dusk_01_time",
+      "cn": "彩虹·暮土 01"
+    },
+    {
+      "daily_quest_def_id": "rainbow_rainbow_night_01",
+      "stat_type": "rainbow_rainbow_night_01_time",
+      "cn": "彩虹·夜晚 01"
+    },
+    {
+      "daily_quest_def_id": "rainbow_rainbow_prairie_01",
+      "stat_type": "rainbow_rainbow_prairie_01_time",
+      "cn": "彩虹·云野 01"
+    },
+    {
+      "daily_quest_def_id": "rainbow_rainbow_rain_01",
+      "stat_type": "rainbow_rainbow_rain_01_time",
+      "cn": "彩虹 01"
+    },
+    {
+      "daily_quest_def_id": "rainbow_rainbow_sunset_01",
+      "stat_type": "rainbow_rainbow_sunset_01_time",
+      "cn": "彩虹 01"
+    },
+    {
+      "daily_quest_def_id": "receive_a_gift",
+      "stat_type": "received_gift_count",
+      "cn": "礼物"
+    },
+    {
+      "daily_quest_def_id": "recharge_by_avatar",
+      "stat_type": "avatar_charge_count",
+      "cn": "recharge_by_avatar"
+    },
+    {
+      "daily_quest_def_id": "recharge_by_flower",
+      "stat_type": "flower_charge_count",
+      "cn": "recharge_by_flower"
+    },
+    {
+      "daily_quest_def_id": "recharge_by_jellyfish",
+      "stat_type": "jellyfish_charge_count",
+      "cn": "水母·鱼"
+    },
+    {
+      "daily_quest_def_id": "recharge_by_shroom",
+      "stat_type": "shroom_charge_count",
+      "cn": "recharge_by_shroom"
+    },
+    {
+      "daily_quest_def_id": "rescue_a_manta_from_darkstone",
+      "stat_type": "birds_released_count",
+      "cn": "蝠鲼·暗·石"
+    },
+    {
+      "daily_quest_def_id": "ride_giant_manta_prairie_island",
+      "stat_type": "ride_giant_manta_prairie_island_time",
+      "cn": "云野·蝠鲼"
+    },
+    {
+      "daily_quest_def_id": "runway_recording_shrine_view",
+      "stat_type": "runway_recording_shrine_view_count",
+      "cn": "runway_recording_shrine_view"
+    },
+    {
+      "daily_quest_def_id": "runway_recording_shrine_walk",
+      "stat_type": "runway_recording_shrine_walk_count",
+      "cn": "runway_recording_shrine_walk"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit",
+      "stat_type": "collectible_count",
+      "cn": "解救先祖·先祖"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_day",
+      "stat_type": "day_collectibles_collected_count",
+      "cn": "解救先祖·先祖"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_dusk",
+      "stat_type": "dusk_collectibles_collected_count",
+      "cn": "解救先祖·暮土·先祖"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_night",
+      "stat_type": "night_collectibles_collected_count",
+      "cn": "解救先祖·夜晚·先祖"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_rain",
+      "stat_type": "rain_collectibles_collected_count",
+      "cn": "解救先祖·先祖"
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_sunset",
+      "stat_type": "sunset_collectibles_collected_count",
+      "cn": "解救先祖·先祖"
+    },
+    {
+      "daily_quest_def_id": "seen_by_dark_creature",
+      "stat_type": "seen_by_dark_creature_count",
+      "cn": "暗"
+    },
+    {
+      "daily_quest_def_id": "send_a_gift",
+      "stat_type": "sent_gift_count",
+      "cn": "赠送礼物·礼物"
+    },
+    {
+      "daily_quest_def_id": "shoute_at_5_crabs",
+      "stat_type": "shoute_at_crab_count",
+      "cn": "螃蟹·呼喊"
+    },
+    {
+      "daily_quest_def_id": "sit_at_a_bench_with_a_stranger",
+      "stat_type": "sit_at_a_bench_with_a_stranger_count",
+      "cn": "sit_at_a_bench_with_a_stranger"
+    },
+    {
+      "daily_quest_def_id": "spirit_angler1",
+      "stat_type": "spirit_angler",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_angler2",
+      "stat_type": "spirit_angler",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_angler3",
+      "stat_type": "spirit_angler",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_anniversary",
+      "stat_type": "spirit_anniversary",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_beachday1",
+      "stat_type": "spirit_beachday",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_beachday2",
+      "stat_type": "spirit_beachday",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_beachday3",
+      "stat_type": "spirit_beachday",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_boatrepair1",
+      "stat_type": "spirit_boatrepair",
+      "cn": "先祖·船"
+    },
+    {
+      "daily_quest_def_id": "spirit_boatrepair2",
+      "stat_type": "spirit_boatrepair",
+      "cn": "先祖·船"
+    },
+    {
+      "daily_quest_def_id": "spirit_boatrepair3",
+      "stat_type": "spirit_boatrepair",
+      "cn": "先祖·船"
+    },
+    {
+      "daily_quest_def_id": "spirit_bookgift1",
+      "stat_type": "spirit_bookgift",
+      "cn": "礼物·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_bookgift2",
+      "stat_type": "spirit_bookgift",
+      "cn": "礼物·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_bookgift3",
+      "stat_type": "spirit_bookgift",
+      "cn": "礼物·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_butterfly",
+      "stat_type": "spirit_butterfly_count",
+      "cn": "飞行·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_camping1",
+      "stat_type": "spirit_camping",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_camping2",
+      "stat_type": "spirit_camping",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_camping3",
+      "stat_type": "spirit_camping",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_catapult1",
+      "stat_type": "spirit_catapult",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_catapult2",
+      "stat_type": "spirit_catapult",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_catapult3",
+      "stat_type": "spirit_catapult",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_chimesmithbuilder1",
+      "stat_type": "spirit_chimesmithbuilder",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_chimesmithbuilder2",
+      "stat_type": "spirit_chimesmithbuilder",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_chimesmithbuilder3",
+      "stat_type": "spirit_chimesmithbuilder",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_cold",
+      "stat_type": "spirit_cold_count",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_crabvoice1",
+      "stat_type": "spirit_crabvoice",
+      "cn": "螃蟹·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_crabvoice2",
+      "stat_type": "spirit_crabvoice",
+      "cn": "螃蟹·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_crabvoice3",
+      "stat_type": "spirit_crabvoice",
+      "cn": "螃蟹·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_discoverark1",
+      "stat_type": "spirit_discoverark",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_discoverark2",
+      "stat_type": "spirit_discoverark",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_discoverark3",
+      "stat_type": "spirit_discoverark",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_duets1",
+      "stat_type": "spirit_duets",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_exploresanctuary1",
+      "stat_type": "spirit_exploresanctuary",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_exploresanctuary2",
+      "stat_type": "spirit_exploresanctuary",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_exploresanctuary3",
+      "stat_type": "spirit_exploresanctuary",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_flightguide1",
+      "stat_type": "spirit_flightguide",
+      "cn": "点亮·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_flightguide2",
+      "stat_type": "spirit_flightguide",
+      "cn": "点亮·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_flightguide3",
+      "stat_type": "spirit_flightguide",
+      "cn": "点亮·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_forgottenstory1",
+      "stat_type": "spirit_forgottenstory",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_forgottenstory2",
+      "stat_type": "spirit_forgottenstory",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_forgottenstory3",
+      "stat_type": "spirit_forgottenstory",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_grieving1",
+      "stat_type": "spirit_grieving",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_grieving2",
+      "stat_type": "spirit_grieving",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_grieving3",
+      "stat_type": "spirit_grieving",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_grieving4",
+      "stat_type": "spirit_grieving",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_grieving5",
+      "stat_type": "spirit_grieving",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_helpinghand1",
+      "stat_type": "spirit_helpinghand",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_helpinghand2",
+      "stat_type": "spirit_helpinghand",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_helpinghand3",
+      "stat_type": "spirit_helpinghand",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_hidenseek1",
+      "stat_type": "spirit_hidenseek",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_hidenseek2",
+      "stat_type": "spirit_hidenseek",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_hidenseek3",
+      "stat_type": "spirit_hidenseek",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_musicianrace1",
+      "stat_type": "spirit_musicianrace",
+      "cn": "音乐·竞速·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_musicianrace2",
+      "stat_type": "spirit_musicianrace",
+      "cn": "音乐·竞速·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_musicianrace3",
+      "stat_type": "spirit_musicianrace",
+      "cn": "音乐·竞速·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_navigator1",
+      "stat_type": "spirit_navigator",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_navigator2",
+      "stat_type": "spirit_navigator",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_navigator3",
+      "stat_type": "spirit_navigator",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_newchoreo1",
+      "stat_type": "spirit_newchoreo",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_newchoreo2",
+      "stat_type": "spirit_newchoreo",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_newchoreo3",
+      "stat_type": "spirit_newchoreo",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_passage1",
+      "stat_type": "spirit_passage",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_passage2",
+      "stat_type": "spirit_passage",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_passage3",
+      "stat_type": "spirit_passage",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_plead1",
+      "stat_type": "spirit_plead",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_plead2",
+      "stat_type": "spirit_plead",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_plead3",
+      "stat_type": "spirit_plead",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_production1",
+      "stat_type": "spirit_production",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_production2",
+      "stat_type": "spirit_production",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_production3",
+      "stat_type": "spirit_production",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm1",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm2",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm3",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm4",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm5",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rhythm6",
+      "stat_type": "spirit_rhythm",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rockcollection1",
+      "stat_type": "spirit_rockcollection",
+      "cn": "收集·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rockcollection2",
+      "stat_type": "spirit_rockcollection",
+      "cn": "收集·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_rockcollection3",
+      "stat_type": "spirit_rockcollection",
+      "cn": "收集·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_scouting1",
+      "stat_type": "spirit_scouting",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_scouting2",
+      "stat_type": "spirit_scouting",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_scouting3",
+      "stat_type": "spirit_scouting",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_selfie_crabvoice",
+      "stat_type": "spirit_selfie_crabvoice_count",
+      "cn": "螃蟹·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_selfie_crabwalk",
+      "stat_type": "spirit_selfie_crabwalk_count",
+      "cn": "螃蟹·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_selfie_evillaugh",
+      "stat_type": "spirit_selfie_evillaugh_count",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_selfie_grumpy",
+      "stat_type": "spirit_selfie_grumpy_count",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_selfie_welcome",
+      "stat_type": "spirit_selfie_welcome_count",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_soundbath1",
+      "stat_type": "spirit_soundbath",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_soundbath2",
+      "stat_type": "spirit_soundbath",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_soundbath3",
+      "stat_type": "spirit_soundbath",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_stagehandmusician1",
+      "stat_type": "spirit_stagehandmusician",
+      "cn": "音乐·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_stagehandmusician2",
+      "stat_type": "spirit_stagehandmusician",
+      "cn": "音乐·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_stagehandmusician3",
+      "stat_type": "spirit_stagehandmusician",
+      "cn": "音乐·先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_ugc1",
+      "stat_type": "spirit_ugc",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_ugc2",
+      "stat_type": "spirit_ugc",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_ugc3",
+      "stat_type": "spirit_ugc",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_ugc4",
+      "stat_type": "spirit_ugc",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_ugc5",
+      "stat_type": "spirit_ugc",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_umbrella1",
+      "stat_type": "spirit_umbrella",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_umbrella2",
+      "stat_type": "spirit_umbrella",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_umbrella3",
+      "stat_type": "spirit_umbrella",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_wildlife1",
+      "stat_type": "spirit_wildlife",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_wildlife2",
+      "stat_type": "spirit_wildlife",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_wildlife3",
+      "stat_type": "spirit_wildlife",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_yoga1",
+      "stat_type": "spirit_yoga",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_yoga2",
+      "stat_type": "spirit_yoga",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "spirit_yoga3",
+      "stat_type": "spirit_yoga",
+      "cn": "先祖"
+    },
+    {
+      "daily_quest_def_id": "sunlight_photo_daily",
+      "stat_type": "take_sunlight_photo",
+      "cn": "每日·点亮"
+    },
+    {
+      "daily_quest_def_id": "tidy_rain_grandmatable",
+      "stat_type": "tidy_rain_grandmatable_count",
+      "cn": "tidy_rain_grandmatable"
+    },
+    {
+      "daily_quest_def_id": "touch_butterflies_butterflyfields",
+      "stat_type": "touch_butterflies_butterflyfields_count",
+      "cn": "飞行"
+    },
+    {
+      "daily_quest_def_id": "visit_dusk_spitroast",
+      "stat_type": "visit_dusk_spitroast_count",
+      "cn": "拜访·暮土"
+    },
+    {
+      "daily_quest_def_id": "visit_island_pollution",
+      "stat_type": "visit_island_pollution_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_night_waterfall",
+      "stat_type": "visit_night_waterfall_count",
+      "cn": "拜访·夜晚·浇水"
+    },
+    {
+      "daily_quest_def_id": "visit_prairie_cozycave",
+      "stat_type": "visit_prairie_cozycave_count",
+      "cn": "拜访·云野·舒适洞穴"
+    },
+    {
+      "daily_quest_def_id": "visit_rain_bonfirecamp",
+      "stat_type": "visit_rain_bonfirecamp_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_rain_grandmatable",
+      "stat_type": "visit_rain_grandmatable_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_dusk",
+      "stat_type": "visit_rainbow_dusk_count",
+      "cn": "拜访·彩虹·暮土"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_night",
+      "stat_type": "visit_rainbow_night_count",
+      "cn": "拜访·彩虹·夜晚"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_prairie",
+      "stat_type": "visit_rainbow_prairie_count",
+      "cn": "拜访·彩虹·云野"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_rain",
+      "stat_type": "visit_rainbow_rain_count",
+      "cn": "拜访·彩虹"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_sunset",
+      "stat_type": "visit_rainbow_sunset_count",
+      "cn": "拜访·彩虹"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbowdeux_dusk",
+      "stat_type": "visit_rainbowdeux_dusk_count",
+      "cn": "拜访·彩虹·暮土"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbowdeux_night",
+      "stat_type": "visit_rainbowdeux_night_count",
+      "cn": "拜访·彩虹·夜晚"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbowdeux_prairie",
+      "stat_type": "visit_rainbowdeux_prairie_count",
+      "cn": "拜访·彩虹·云野"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbowdeux_rain",
+      "stat_type": "visit_rainbowdeux_rain_count",
+      "cn": "拜访·彩虹"
+    },
+    {
+      "daily_quest_def_id": "visit_rainbowdeux_sunset",
+      "stat_type": "visit_rainbowdeux_sunset_count",
+      "cn": "拜访·彩虹"
+    },
+    {
+      "daily_quest_def_id": "visit_skyway_speedtube",
+      "stat_type": "visit_skyway_speedtube_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_stormy_event",
+      "stat_type": "visit_stormy_event_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_sunset_hotspring",
+      "stat_type": "visit_sunset_hotspring_time",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "visit_sunset_labyrinth",
+      "stat_type": "visit_sunset_labyrinth_count",
+      "cn": "拜访"
+    },
+    {
+      "daily_quest_def_id": "wave_at_a_friend",
+      "stat_type": "wave_at_friend_count",
+      "cn": "wave_at_a_friend"
+    },
+    {
+      "daily_quest_def_id": "wave_at_a_player",
+      "stat_type": "wave_at_player_count",
+      "cn": "wave_at_a_player"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap09_fetch_01",
+      "stat_type": "world_quest_ap09_fetch_01_count",
+      "cn": "世界任务·任务 01"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap09_fetch_02",
+      "stat_type": "world_quest_ap09_fetch_02_count",
+      "cn": "世界任务·任务 02"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap09_fetch_03",
+      "stat_type": "world_quest_ap09_fetch_03_count",
+      "cn": "世界任务·任务 03"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap09_fetch_04",
+      "stat_type": "world_quest_ap09_fetch_04_count",
+      "cn": "世界任务·任务 04"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_01",
+      "stat_type": "world_quest_ap10_fetch_01_count",
+      "cn": "世界任务·任务 01"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_02",
+      "stat_type": "world_quest_ap10_fetch_02_count",
+      "cn": "世界任务·任务 02"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_03",
+      "stat_type": "world_quest_ap10_fetch_03_count",
+      "cn": "世界任务·任务 03"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_04",
+      "stat_type": "world_quest_ap10_fetch_04_count",
+      "cn": "世界任务·任务 04"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_05",
+      "stat_type": "world_quest_ap10_fetch_05_count",
+      "cn": "世界任务·任务 05"
+    },
+    {
+      "daily_quest_def_id": "world_quest_ap10_fetch_06",
+      "stat_type": "world_quest_ap10_fetch_06_count",
+      "cn": "世界任务·任务 06"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_balance",
+      "stat_type": "world_quest_dawn_balance_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_carry",
+      "stat_type": "world_quest_dawn_carry_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_chestpound",
+      "stat_type": "world_quest_dawn_chestpound_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_come",
+      "stat_type": "world_quest_dawn_come_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_deepbreath",
+      "stat_type": "world_quest_dawn_deepbreath_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_dustoff",
+      "stat_type": "world_quest_dawn_dustoff_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_loopdance",
+      "stat_type": "world_quest_dawn_loopdance_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_nothanks",
+      "stat_type": "world_quest_dawn_nothanks_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_point",
+      "stat_type": "world_quest_dawn_point_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dawn_sass",
+      "stat_type": "world_quest_dawn_sass_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_acknowledge",
+      "stat_type": "world_quest_dusk_acknowledge_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_brave",
+      "stat_type": "world_quest_dusk_brave_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_crabvoice",
+      "stat_type": "world_quest_dusk_crabvoice_count",
+      "cn": "暮土·螃蟹·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_die",
+      "stat_type": "world_quest_dusk_die_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_dontgo",
+      "stat_type": "world_quest_dusk_dontgo_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_lookaround",
+      "stat_type": "world_quest_dusk_lookaround_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_respect",
+      "stat_type": "world_quest_dusk_respect_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_salute",
+      "stat_type": "world_quest_dusk_salute_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_scared",
+      "stat_type": "world_quest_dusk_scared_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_dusk_sneaky",
+      "stat_type": "world_quest_dusk_sneaky_count",
+      "cn": "暮土·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_nature_vortex1",
+      "stat_type": "world_quest_nature_vortex1_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_nature_vortex2",
+      "stat_type": "world_quest_nature_vortex2_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_nature_vortex3",
+      "stat_type": "world_quest_nature_vortex3_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_float",
+      "stat_type": "world_quest_night_float_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_force",
+      "stat_type": "world_quest_night_force_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_ghost",
+      "stat_type": "world_quest_night_ghost_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_kungfu",
+      "stat_type": "world_quest_night_kungfu_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_love",
+      "stat_type": "world_quest_night_love_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_pray",
+      "stat_type": "world_quest_night_pray_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_shh",
+      "stat_type": "world_quest_night_shh_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_think",
+      "stat_type": "world_quest_night_think_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_night_wise",
+      "stat_type": "world_quest_night_wise_count",
+      "cn": "夜晚·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_crabwalk",
+      "stat_type": "world_quest_oasis_crabwalk_count",
+      "cn": "螃蟹·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_doze",
+      "stat_type": "world_quest_oasis_doze_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_nod",
+      "stat_type": "world_quest_oasis_nod_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_playfight",
+      "stat_type": "world_quest_oasis_playfight_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_scare",
+      "stat_type": "world_quest_oasis_scare_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_oasis_shrug",
+      "stat_type": "world_quest_oasis_shrug_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_bellyscratch",
+      "stat_type": "world_quest_prairie_bellyscratch_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_bird",
+      "stat_type": "world_quest_prairie_bird_count",
+      "cn": "云野·鸟·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_butterfly",
+      "stat_type": "world_quest_prairie_butterfly_count",
+      "cn": "云野·飞行·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_celebrate",
+      "stat_type": "world_quest_prairie_celebrate_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_dance",
+      "stat_type": "world_quest_prairie_dance_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_doublefive",
+      "stat_type": "world_quest_prairie_doublefive_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_gratitude",
+      "stat_type": "world_quest_prairie_gratitude_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_grumpy",
+      "stat_type": "world_quest_prairie_grumpy_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_jelly",
+      "stat_type": "world_quest_prairie_jelly_count",
+      "cn": "云野·世界任务·任务·水母"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_laugh",
+      "stat_type": "world_quest_prairie_laugh_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_rally",
+      "stat_type": "world_quest_prairie_rally_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_salutation",
+      "stat_type": "world_quest_prairie_salutation_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_thumbsup",
+      "stat_type": "world_quest_prairie_thumbsup_count",
+      "cn": "云野·点赞·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_timid",
+      "stat_type": "world_quest_prairie_timid_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_wave",
+      "stat_type": "world_quest_prairie_wave_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_wipe",
+      "stat_type": "world_quest_prairie_wipe_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_yawn",
+      "stat_type": "world_quest_prairie_yawn_count",
+      "cn": "云野·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_bubbles",
+      "stat_type": "world_quest_rain_bubbles_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_chuckle",
+      "stat_type": "world_quest_rain_chuckle_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_cold",
+      "stat_type": "world_quest_rain_cold_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_cry",
+      "stat_type": "world_quest_rain_cry_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_eww",
+      "stat_type": "world_quest_rain_eww_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_facepalm",
+      "stat_type": "world_quest_rain_facepalm_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_hairtousle",
+      "stat_type": "world_quest_rain_hairtousle_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_kiss",
+      "stat_type": "world_quest_rain_kiss_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_lazycool",
+      "stat_type": "world_quest_rain_lazycool_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_marching",
+      "stat_type": "world_quest_rain_marching_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_ohno",
+      "stat_type": "world_quest_rain_ohno_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_pout",
+      "stat_type": "world_quest_rain_pout_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_sarcastic",
+      "stat_type": "world_quest_rain_sarcastic_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_seek",
+      "stat_type": "world_quest_rain_seek_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_shy",
+      "stat_type": "world_quest_rain_shy_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_sorry",
+      "stat_type": "world_quest_rain_sorry_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_tsktsk",
+      "stat_type": "world_quest_rain_tsktsk_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_rain_whale",
+      "stat_type": "world_quest_rain_whale_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_backflip",
+      "stat_type": "world_quest_sunset_backflip_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_bow",
+      "stat_type": "world_quest_sunset_bow_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_cheer",
+      "stat_type": "world_quest_sunset_cheer_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_handstand",
+      "stat_type": "world_quest_sunset_handstand_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_joy",
+      "stat_type": "world_quest_sunset_joy_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_juggle",
+      "stat_type": "world_quest_sunset_juggle_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_manta",
+      "stat_type": "world_quest_sunset_manta_count",
+      "cn": "世界任务·任务·蝠鲼"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_proud",
+      "stat_type": "world_quest_sunset_proud_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_sparkler",
+      "stat_type": "world_quest_sunset_sparkler_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_strong",
+      "stat_type": "world_quest_sunset_strong_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_tripleaxel",
+      "stat_type": "world_quest_sunset_tripleaxel_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_village_bearhug",
+      "stat_type": "world_quest_sunset_village_bearhug_count",
+      "cn": "拥抱·世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_village_peek",
+      "stat_type": "world_quest_sunset_village_peek_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_village_showdance",
+      "stat_type": "world_quest_sunset_village_showdance_count",
+      "cn": "世界任务·任务"
+    },
+    {
+      "daily_quest_def_id": "world_quest_sunset_village_spintrick",
+      "stat_type": "world_quest_sunset_village_spintrick_count",
+      "cn": "世界任务·任务"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "_说明": "好友树(关系能力)节点下发控制。改完立即生效(按文件修改时间热加载), 不用重启服务。",
+  "_为什么要全局砍掉 SocialIAP": "有的老客户端会在 User-Agent 里谎报版本: 实测 用户跑的 0.13.4 (crash tag com.tgc.sky.androidold, libBootloader 就是 0.13.4 那份, 原生里没有 SocialIAP 元类) 在 UA 里报的是 0.23.6.354648。服务端按 UA 当它是新客户端发含 iap 的整表, 它就会原生 abort: RelationshipAbilityDefs.cpp: RelationshipAbility 'iap' - no RelationshipButtonEvent of type SocialIAP。UA 版本不可信, 所以这条节点默认对所有客户端都不发。",
+  "_影响": "id55(iap) 只是好友树叶子节点(父节点 id5 fist_bump 另有 id37/id42 两个孩子), 砍掉不改变树形/布局, 只是好友树里少了『赠送 IAP』这一个按钮。",
+  "event_min_version": {
+    "SocialWarpBlock": "0.11.0",
+    "SocialLink": "0.12.0",
+    "SocialUnlink": "0.12.0",
+    "SocialIAP": "0.19.0"
+  },
+  "always_drop_events": ["SocialIAP"],
+  "always_keep_builds": {
+    "SocialIAP": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "is_dnd": false,
+  "is_joinable": true,
+  "move_to_game": {
+    "client_changelist": "275000",
+    "client_version": 5019,
+    "event_id": 4294967295,
+    "level": 3526133726,
+    "level_hash": 32977,
+    "move_ts": 1721147785200,
+    "platform_filter": 0,
+    "players": [
+      "86fe515c-3d57-43be-bf8b-7127026a8a34"
+    ],
+    "port": 41218,
+    "private_ip": "172.31.45.138",
+    "ps_only": false,
+    "public_ip": "35.85.56.99",
+    "sig": "d5dadceddcc23de486c410c6f20188ddead74a4f9ca316b990b36984ab6d09dd",
+    "signature": "8febdbd5013abb4a9b1355814251c10e3ae37bc802c569bf1a92fd6049898031",
+    "target_id": "86fe515c-3d57-43be-bf8b-7127026a8a34"
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "/account/ack_collectible": {
+    "method": "POST",
+    "file": "account__ack_collectible.json"
+  },
+  "/account/ack_forge_rate_reset": {
+    "method": "POST",
+    "file": "account__ack_forge_rate_reset.json"
+  },
+  "/account/ack_unlock": {
+    "method": "POST",
+    "file": "account__ack_unlock.json"
+  },
+  "/account/activate_season_quest": {
+    "method": "POST",
+    "file": "account__activate_season_quest.json"
+  },
+  "/account/buy_candle_wax": {
+    "method": "POST",
+    "file": "account__buy_candle_wax.json"
+  },
+  "/account/claim_message_gift": {
+    "method": "POST",
+    "file": "account__claim_message_gift.json"
+  },
+  "/account/claim_quest_reward": {
+    "method": "POST",
+    "file": "account__claim_quest_reward.json"
+  },
+  "/account/claim_season_quest_reward": {
+    "method": "POST",
+    "file": "account__claim_season_quest_reward.json"
+  },
+  "/account/collect_collectible": {
+    "method": "POST",
+    "file": "account__collect_collectible.json"
+  },
+  "/account/collect_pickup_batch": {
+    "method": "POST",
+    "file": "account__collect_pickup_batch.json"
+  },
+  "/account/find_previous_or_empty": {
+    "method": "POST",
+    "file": "account__find_previous_or_empty.json"
+  },
+  "/account/get_account_world_quests": {
+    "method": "POST",
+    "file": "account__get_account_world_quests.json"
+  },
+  "/account/get_achievements": {
+    "method": "POST",
+    "file": "account__get_achievements.json"
+  },
+  "/account/get_achievement_defs": {
+    "method": "POST",
+    "file": "account__get_achievement_defs.json"
+  },
+  "/account/get_achievement_stats": {
+    "method": "POST",
+    "file": "account__get_achievement_stats.json"
+  },
+  "/account/get_achievement_stats_tracking": {
+    "method": "POST",
+    "file": "account__get_achievement_stats_tracking.json"
+  },
+  "/account/get_app_badge_number": {
+    "method": "POST",
+    "file": "account__get_app_badge_number.json"
+  },
+  "/account/get_blocked_friends": {
+    "method": "POST",
+    "file": "account__get_blocked_friends.json"
+  },
+  "/account/get_checkpoints": {
+    "method": "POST",
+    "file": "account__get_checkpoints.json"
+  },
+  "/account/get_collectibles": {
+    "method": "POST",
+    "file": "account__get_collectibles.json"
+  },
+  "/account/get_currency": {
+    "method": "POST",
+    "file": "account__get_currency.json"
+  },
+  "/account/get_event_currency_defs": {
+    "method": "POST",
+    "file": "account__get_event_currency_defs.json"
+  },
+  "/account/get_event_schedule": {
+    "method": "POST",
+    "file": "account__get_event_schedule.json"
+  },
+  "/account/get_external_friends": {
+    "method": "POST",
+    "file": "account__get_external_friends.json"
+  },
+  "/account/get_forge_rates": {
+    "method": "POST",
+    "file": "account__get_forge_rates.json"
+  },
+  "/account/get_friends": {
+    "method": "POST",
+    "file": "account__get_friends.json"
+  },
+  "/account/get_friend_statues": {
+    "method": "POST",
+    "file": "account__get_friend_statues.json"
+  },
+  "/account/get_generic_shops": {
+    "method": "POST",
+    "file": "account__get_generic_shops.json"
+  },
+  "/account/get_generic_shop_item_tracking_info": {
+    "method": "POST",
+    "file": "account__get_generic_shop_item_tracking_info.json"
+  },
+  "/account/get_invites": {
+    "method": "POST",
+    "file": "account__get_invites.json"
+  },
+  "/account/get_latest_build_version": {
+    "method": "POST",
+    "file": "account__get_latest_build_version.json"
+  },
+  "/account/get_level_pickups": {
+    "method": "POST",
+    "file": "account__get_level_pickups.json"
+  },
+  "/account/get_map_defs": {
+    "method": "POST",
+    "file": "account__get_map_defs.json"
+  },
+  "/account/get_motd": {
+    "method": "POST",
+    "file": "account__get_motd.json"
+  },
+  "/account/get_online_friends": {
+    "method": "POST",
+    "file": "account__get_online_friends.json"
+  },
+  "/account/get_outfit": {
+    "method": "POST",
+    "file": "account__get_outfit.json"
+  },
+  "/account/get_pending_messages": {
+    "method": "POST",
+    "file": "account__get_pending_messages.json"
+  },
+  "/account/get_player_info": {
+    "method": "POST",
+    "file": "account__get_player_info.json"
+  },
+  "/account/get_radiance_spawn_defs": {
+    "method": "POST",
+    "file": "account__get_radiance_spawn_defs.json"
+  },
+  "/account/get_rank": {
+    "method": "POST",
+    "file": "account__get_rank.json"
+  },
+  "/account/get_relationship_abilities": {
+    "method": "POST",
+    "file": "account__get_relationship_abilities.json"
+  },
+  "/account/get_remote_outfit": {
+    "method": "POST",
+    "file": "account__get_remote_outfit.json"
+  },
+  "/account/get_season_quests": {
+    "method": "POST",
+    "file": "account__get_season_quests.json"
+  },
+  "/account/get_shop": {
+    "method": "POST",
+    "file": "account__get_shop.json"
+  },
+  "/account/get_spirit_shops": {
+    "method": "POST",
+    "file": "account__get_spirit_shops.json"
+  },
+  "/account/get_surveys": {
+    "method": "POST",
+    "file": "account__get_surveys.json"
+  },
+  "/account/get_unlocks": {
+    "method": "POST",
+    "file": "account__get_unlocks.json"
+  },
+  "/account/get_vars": {
+    "method": "POST",
+    "file": "account__get_vars.json"
+  },
+  "/account/get_video_defs": {
+    "method": "POST",
+    "file": "account__get_video_defs.json"
+  },
+  "/account/give_candle": {
+    "method": "POST",
+    "file": "account__give_candle.json"
+  },
+  "/account/iaplist": {
+    "method": "POST",
+    "file": "account__iaplist.json"
+  },
+  "/account/join_friend_game": {
+    "method": "POST",
+    "file": "account__join_friend_game.json"
+  },
+  "/account/join_previous_game": {
+    "method": "POST",
+    "file": "account__join_previous_game.json"
+  },
+  "/account/purchase_generic_shop_item": {
+    "method": "POST",
+    "file": "account__purchase_generic_shop_item.json"
+  },
+  "/account/purchase_spirit_shop_item": {
+    "method": "POST",
+    "file": "account__purchase_spirit_shop_item.json"
+  },
+  "/account/remove_relationship_hint": {
+    "method": "POST",
+    "file": "account__remove_relationship_hint.json"
+  },
+  "/account/season_finalize": {
+    "method": "POST",
+    "file": "account__season_finalize.json"
+  },
+  "/account/send_message": {
+    "method": "POST",
+    "file": "account__send_message.json"
+  },
+  "/account/set_achievement_stats": {
+    "method": "POST",
+    "file": "account__set_achievement_stats.json"
+  },
+  "/account/set_checkpoint": {
+    "method": "POST",
+    "file": "account__set_checkpoint.json"
+  },
+  "/account/set_friend_name": {
+    "method": "POST",
+    "file": "account__set_friend_name.json"
+  },
+  "/account/set_joinable": {
+    "method": "POST",
+    "file": "account__set_joinable.json"
+  },
+  "/account/set_outfit": {
+    "method": "POST",
+    "file": "account__set_outfit.json"
+  },
+  "/account/translate": {
+    "method": "POST",
+    "file": "account__translate.json"
+  },
+  "/account/userdata": {
+    "method": "POST",
+    "file": "account__userdata.json"
+  },
+  "/account/auth/login": {
+    "method": "POST",
+    "file": "account__auth__login.json"
+  },
+  "/account/buff/get_buffs1": {
+    "method": "POST",
+    "file": "account__buff__get_buffs1.json"
+  },
+  "/account/buff/get_buff_defs": {
+    "method": "POST",
+    "file": "account__buff__get_buff_defs.json"
+  },
+  "/account/buff/remove_buff1": {
+    "method": "POST",
+    "file": "account__buff__remove_buff1.json"
+  },
+  "/account/chat/send": {
+    "method": "POST",
+    "file": "account__chat__send.json"
+  },
+  "/account/commerce/friend_info": {
+    "method": "POST",
+    "file": "account__commerce__friend_info.json"
+  },
+  "/account/commerce/product_info": {
+    "method": "POST",
+    "file": "account__commerce__product_info.json"
+  },
+  "/account/commerce/receipt": {
+    "method": "POST",
+    "file": "account__commerce__receipt.json"
+  },
+  "/account/commerce/submit_order": {
+    "method": "POST",
+    "file": "account__commerce__submit_order.json"
+  },
+  "/account/consumable/consume_item1": {
+    "method": "POST",
+    "file": "account__consumable__consume_item1.json"
+  },
+  "/account/consumable/get_consumables1": {
+    "method": "POST",
+    "file": "account__consumable__get_consumables1.json"
+  },
+  "/account/consumable/get_consumable_defs": {
+    "method": "POST",
+    "file": "account__consumable__get_consumable_defs.json"
+  },
+  "/account/device_capabilities/lookup": {
+    "method": "POST",
+    "file": "account__device_capabilities__lookup.json"
+  },
+  "/account/lootboxes/get": {
+    "method": "POST",
+    "file": "account__lootboxes__get.json"
+  },
+  "/account/lootboxes/redeem_box": {
+    "method": "POST",
+    "file": "account__lootboxes__redeem_box.json"
+  },
+  "/account/quest/get_quest_defs": {
+    "method": "POST",
+    "file": "account__quest__get_quest_defs.json"
+  },
+  "/account/serendipity/get": {
+    "method": "POST",
+    "file": "account__serendipity__get.json"
+  },
+  "/account/star/get": {
+    "method": "POST",
+    "file": "account__star__get.json"
+  },
+  "/account/support/has_reply": {
+    "method": "POST",
+    "file": "account__support__has_reply.json"
+  },
+  "/account/trust/get_trust_activity_defs": {
+    "method": "POST",
+    "file": "account__trust__get_trust_activity_defs.json"
+  },
+  "/account/trust/get_trust_group_defs": {
+    "method": "POST",
+    "file": "account__trust__get_trust_group_defs.json"
+  },
+  "/account/trust/get_trust_tier_defs": {
+    "method": "POST",
+    "file": "account__trust__get_trust_tier_defs.json"
+  },
+  "/account/wing_buffs/collect": {
+    "method": "POST",
+    "file": "account__wing_buffs__collect.json"
+  },
+  "/account/wing_buffs/convert": {
+    "method": "POST",
+    "file": "account__wing_buffs__convert.json"
+  },
+  "/account/wing_buffs/deposit": {
+    "method": "POST",
+    "file": "account__wing_buffs__deposit.json"
+  },
+  "/account/wing_buffs/drop": {
+    "method": "POST",
+    "file": "account__wing_buffs__drop.json"
+  },
+  "/account/wing_buffs/get": {
+    "method": "POST",
+    "file": "account__wing_buffs__get.json"
+  },
+  "/service/auth/api/v1/token": {
+    "method": "POST",
+    "file": "service__auth__api__v1__token.json"
+  },
+  "/service/infraction/api/v1/get_infractions_status_decorated": {
+    "method": "POST",
+    "file": "service__infraction__api__v1__get_infractions_status_decorated.json"
+  },
+  "/service/infraction/api/v1/get_infractions_status_many": {
+    "method": "POST",
+    "file": "service__infraction__api__v1__get_infractions_status_many.json"
+  },
+  "/service/message/api/v1/get": {
+    "method": "POST",
+    "file": "service__message__api__v1__get.json"
+  },
+  "/service/message/api/v1/mark_received": {
+    "method": "POST",
+    "file": "service__message__api__v1__mark_received.json"
+  },
+  "/service/message/api/v1/mark_seen": {
+    "method": "POST",
+    "file": "service__message__api__v1__mark_seen.json"
+  },
+  "/service/message/api/v2/get_all": {
+    "method": "POST",
+    "file": "service__message__api__v2__get_all.json"
+  },
+  "/service/quest/api/v1/check_for_previous_completion": {
+    "method": "POST",
+    "file": "service__quest__api__v1__check_for_previous_completion.json"
+  },
+  "/service/quest/api/v1/create": {
+    "method": "POST",
+    "file": "service__quest__api__v1__create.json"
+  },
+  "/service/quest/api/v1/get_player_quests": {
+    "method": "POST",
+    "file": "service__quest__api__v1__get_player_quests.json"
+  },
+  "/service/quest/api/v1/get_player_quests_by_name": {
+    "method": "POST",
+    "file": "service__quest__api__v1__get_player_quests_by_name.json"
+  },
+  "/service/quest/api/v1/get_quest_schedule": {
+    "method": "POST",
+    "file": "service__quest__api__v1__get_quest_schedule.json"
+  },
+  "/service/quest/api/v1/update_quest": {
+    "method": "POST",
+    "file": "service__quest__api__v1__update_quest.json"
+  },
+  "/service/recording/api/v1/create": {
+    "method": "POST",
+    "file": "service__recording__api__v1__create.json"
+  },
+  "/service/recording/api/v1/get": {
+    "method": "POST",
+    "file": "service__recording__api__v1__get.json"
+  },
+  "/service/relationship/api/v1/add_follow": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__add_follow.json"
+  },
+  "/service/relationship/api/v1/delete_follow": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__delete_follow.json"
+  },
+  "/service/relationship/api/v1/get_all_friend_gist": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__get_all_friend_gist.json"
+  },
+  "/service/relationship/api/v1/get_follow": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__get_follow.json"
+  },
+  "/service/relationship/api/v1/get_follower_count": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__get_follower_count.json"
+  },
+  "/service/relationship/api/v1/free_gifts/claim": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__free_gifts__claim.json"
+  },
+  "/service/relationship/api/v1/free_gifts/get_pending": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__free_gifts__get_pending.json"
+  },
+  "/service/relationship/api/v1/free_gifts/send": {
+    "method": "POST",
+    "file": "service__relationship__api__v1__free_gifts__send.json"
+  },
+  "/service/reservation/api/v1/reserve": {
+    "method": "POST",
+    "file": "service__reservation__api__v1__reserve.json"
+  },
+  "/service/social-feed/api/v1/create": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__create.json"
+  },
+  "/service/social-feed/api/v1/delete": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__delete.json"
+  },
+  "/service/social-feed/api/v1/get_by_ids": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__get_by_ids.json"
+  },
+  "/service/social-feed/api/v1/get_reactions": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__get_reactions.json"
+  },
+  "/service/social-feed/api/v1/get_user_feeds": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__get_user_feeds.json"
+  },
+  "/service/social-feed/api/v1/like": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__like.json"
+  },
+  "/service/social-feed/api/v1/report": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__report.json"
+  },
+  "/service/social-feed/api/v1/super_like": {
+    "method": "POST",
+    "file": "service__social-feed__api__v1__super_like.json"
+  },
+  "/service/social-feed/api/v2/comments": {
+    "method": "POST",
+    "file": "service__social-feed__api__v2__comments.json"
+  },
+  "/service/social-feed/api/v2/get_curated_feeds": {
+    "method": "POST",
+    "file": "service__social-feed__api__v2__get_curated_feeds.json"
+  },
+  "/service/social-feed/api/v2/get_penpals": {
+    "method": "POST",
+    "file": "service__social-feed__api__v2__get_penpals.json"
+  },
+  "/service/social-feed/api/v2/get_penpal_by_id": {
+    "method": "POST",
+    "file": "service__social-feed__api__v2__get_penpal_by_id.json"
+  },
+  "/service/stage/api/v1/friends_in_apartments": {
+    "method": "POST",
+    "file": "service__stage__api__v1__friends_in_apartments.json"
+  },
+  "/service/stage/api/v1/get": {
+    "method": "POST",
+    "file": "service__stage__api__v1__get.json"
+  },
+  "/service/stage/api/v1/leave_apartment": {
+    "method": "POST",
+    "file": "service__stage__api__v1__leave_apartment.json"
+  },
+  "/service/stage/api/v1/set": {
+    "method": "POST",
+    "file": "service__stage__api__v1__set.json"
+  },
+  "/service/stage/api/v1/update_apartment_status": {
+    "method": "POST",
+    "file": "service__stage__api__v1__update_apartment_status.json"
+  },
+  "/service/status/api/v1/add_unlock": {
+    "method": "POST",
+    "file": "service__status__api__v1__add_unlock.json"
+  },
+  "/service/status/api/v1/delete_unlock": {
+    "method": "POST",
+    "file": "service__status__api__v1__delete_unlock.json"
+  },
+  "/service/status/api/v1/get_player_profile": {
+    "method": "POST",
+    "file": "service__status__api__v1__get_player_profile.json"
+  },
+  "/service/status/api/v1/get_unlocks": {
+    "method": "POST",
+    "file": "service__status__api__v1__get_unlocks.json"
+  },
+  "/service/trust/api/v1/get": {
+    "method": "POST",
+    "file": "service__trust__api__v1__get.json"
+  },
+  "/starwatch/auth/api/v1/auth": {
+    "method": "POST",
+    "file": "starwatch__auth__api__v1__auth.json"
+  }
+}

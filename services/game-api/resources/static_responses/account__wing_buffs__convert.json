@@ -1,0 +1,215 @@
+{
+  "currency": {
+    "candles": 11,
+    "prestige": 7,
+    "prestige_vip": 7,
+    "wax": 91
+  },
+  "result": "ok",
+  "wing_buffs": [
+    {
+      "collected": false,
+      "deposit_id": 17592186044416,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Dawn_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 8796093022208,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Dawn_2"
+    },
+    {
+      "collected": false,
+      "deposit_id": 2,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_DuskEnd_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 70368744177664,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_DuskGraveyard_0"
+    },
+    {
+      "collected": false,
+      "name": "l_DuskGraveyard_2"
+    },
+    {
+      "collected": false,
+      "deposit_id": 4,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_DuskGraveyard_5"
+    },
+    {
+      "collected": false,
+      "deposit_id": 1024,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Dusk_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 17179869184,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Night2_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 36028797018963968,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Prairie_ButterflyFields_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 8388608,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Prairie_ButterflyFields_2"
+    },
+    {
+      "collected": false,
+      "deposit_id": 65536,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Prairie_Village_0"
+    },
+    {
+      "collected": false,
+      "name": "l_Prairie_Village_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 1,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Prairie_Village_4"
+    },
+    {
+      "collected": false,
+      "deposit_id": 8,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_RainEnd_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 4398046511104,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_RainForest_2"
+    },
+    {
+      "collected": false,
+      "deposit_id": 68719476736,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_RainMid_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 524288,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Rain_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 137438953472,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Rain_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 9007199254740992,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 4503599627370496,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_2"
+    },
+    {
+      "collected": false,
+      "deposit_id": 4194304,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_3"
+    },
+    {
+      "collected": false,
+      "deposit_id": 549755813888,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_4"
+    },
+    {
+      "collected": false,
+      "deposit_id": 2147483648,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_5"
+    },
+    {
+      "collected": false,
+      "deposit_id": 512,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_7"
+    },
+    {
+      "collected": false,
+      "deposit_id": 2199023255552,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Storm_8"
+    },
+    {
+      "collected": false,
+      "deposit_id": 4294967296,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_SunsetEnd_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 35184372088832,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_SunsetRace_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 33554432,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Sunset_0"
+    },
+    {
+      "collected": false,
+      "deposit_id": 16,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Sunset_1"
+    },
+    {
+      "collected": false,
+      "deposit_id": 32,
+      "deposited": false,
+      "last_conversion": 1720824996,
+      "name": "l_Sunset_2"
+    }
+  ]
+}

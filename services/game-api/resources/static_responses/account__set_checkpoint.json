@@ -1,0 +1,37 @@
+{
+  "checkpoints": [
+    {
+      "arc_order": 1,
+      "bst_id": 0,
+      "is_furthest": true,
+      "level_hash": 52532,
+      "level_id": 1649439303,
+      "states": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "user": "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+    }
+  ]
+}

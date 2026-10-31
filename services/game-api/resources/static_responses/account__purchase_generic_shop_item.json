@@ -1,0 +1,112 @@
+{
+  "currency": {
+    "candles": 55,
+    "event_candle_days_of_sky": 2,
+    "heart": 90,
+    "heart_wax": 100,
+    "prestige": 23,
+    "prestige_vip": 59,
+    "prestige_wax": 3,
+    "season_candle": 0,
+    "season_candle_22": 10,
+    "season_wax": 0,
+    "season_wax_22": 6,
+    "vip": 20,
+    "wax": 42
+  },
+  "generic_shop_item_tracking_info": [
+    {
+      "count": 1,
+      "id": 4165070576,
+      "ttl": 63958
+    }
+  ],
+  "generic_shop_purchase": "success",
+  "get_consumables": [
+    {
+      "consumable_id": 50358065,
+      "cooldown_until": 0,
+      "quantity": 1
+    },
+    {
+      "consumable_id": 75558978,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 561567149,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 701255829,
+      "cooldown_until": 0,
+      "quantity": 1
+    },
+    {
+      "consumable_id": 728556201,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 872420107,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 1087669517,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 1115226250,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 1309459241,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 1482655023,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 1659639836,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 2704677687,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 3322375825,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 3379219961,
+      "cooldown_until": 0,
+      "quantity": 1
+    },
+    {
+      "consumable_id": 3773476314,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 4050329182,
+      "cooldown_until": 0,
+      "quantity": 2
+    },
+    {
+      "consumable_id": 4099037957,
+      "cooldown_until": 0,
+      "quantity": 2
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "result": "ok",
+  "sent_free_gift": {
+    "currency_count": 0,
+    "currency_type": "",
+    "gift_id": 13206332062,
+    "recvd": false,
+    "to_id": "d4a641b9-cdc1-49b6-9cd5-f63abc35740c",
+    "type": "gift_heart_wax"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "currency": {
+    "candles": 4,
+    "wax": 146
+  },
+  "get_consumables": [
+    {
+      "consumable_id": 701255829,
+      "cooldown_until": 0,
+      "quantity": 1
+    }
+  ],
+  "get_lootboxes": [],
+  "result": "ok"
+}

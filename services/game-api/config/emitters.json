@@ -1,0 +1,1316 @@
+[
+    {
+        "level": 164626931,
+        "pickup_emitters": [
+            {
+            "emitter_name": "BloomShower",
+            "events": [
+                {
+                    "preactive_duration": 0,
+                    "pool_name": "event_bloom_2022",
+                    "pool_amount": 1000,
+                    "last_chunk_seq": -1,
+                    "event_name": "bloom_2022_fall",
+                    "emit_interval": 6,
+                    "currency_type": "wax",
+                    "collected": 0,
+                    "chunks_per_emit": 1,
+                    "chunk_size_likelihood": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "chunk_size_amount": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "active_duration": 8640
+                },
+                {
+                    "preactive_duration": 0,
+                    "pool_name": "event_bloom_2022",
+                    "pool_amount": 1000,
+                    "last_chunk_seq": -1,
+                    "event_name": "bloom_2022_bloom",
+                    "emit_interval": 9,
+                    "currency_type": "wax",
+                    "collected": 0,
+                    "chunks_per_emit": 1,
+                    "chunk_size_likelihood": [
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "chunk_size_amount": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "active_duration": 4320
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "level": 170656205,
+        "pickup_emitters": [
+            {
+                "emitter_name": "BloomOasis",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2023_waxp2",
+                        "emit_interval": 5,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2023_waxp1",
+                        "emit_interval": 7,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            },
+            {
+                "emitter_name": "BloomOasisButterfly",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2023_waxbutterfly",
+                        "emit_interval": 3,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 263580627,
+        "pickup_emitters": [
+            {
+                "emitter_name": "ScorePillar",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_competition",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_competition_wax",
+                        "emit_interval": 15,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 5,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 295816905,
+        "pickup_emitters": [
+            {
+                "emitter_name": "BirthdayCake2023",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_sky_anniversary2",
+                        "pool_amount": 600,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_sky_anniversary",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            9,
+                            0,
+                            0
+                        ],
+                        "active_duration": 20160
+                    }
+                ]
+            },
+            {
+                "emitter_name": "GroundLight",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_sky_anniversary",
+                        "pool_amount": 800,
+                        "last_chunk_seq": -1,
+                        "event_name": "tgc_concert_lighting_wax",
+                        "emit_interval": 65,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 20,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 507487826,
+        "pickup_emitters": [
+            {
+                "emitter_name": "SunsetLabyrinth",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_labyrinth",
+                        "pool_amount": 250,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_sunset_labyrinth",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.6000000238418579,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            4,
+                            8,
+                            18
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 864432821,
+        "pickup_emitters": [
+            {
+                "emitter_name": "DuskSpitRoastPassive",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_spitroast",
+                        "pool_amount": 250,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_dusk_spitroastpassive",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.6000000238418579,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            4,
+                            8,
+                            18
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 1444818677,
+        "pickup_emitters": [
+            {
+                "emitter_name": "CafeOven",
+                "events": [
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "social_lunardragon",
+                        "pool_amount": 800,
+                        "last_chunk_seq": -1,
+                        "event_name": "cafe_oven",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 4,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            10,
+                            0,
+                            0
+                        ],
+                        "active_duration": 14
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 1638008359,
+        "pickup_emitters": [
+            {
+                "emitter_name": "FortuneSunsetBlizz",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_daysoffortune_sunset",
+                        "pool_amount": 700,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_daysoffortune",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 20160
+                    }
+                ]
+            },
+            {
+                "emitter_name": "LunarDragonPop",
+                "events": [
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "social_lunardragon",
+                        "pool_amount": 800,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_lunardragonpopdel_sunset",
+                        "emit_interval": 10,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            0.0,
+                            0.800000011920929,
+                            0.20000000298023224
+                        ],
+                        "chunk_size_amount": [
+                            5,
+                            10,
+                            20
+                        ],
+                        "active_duration": 1440
+                    },
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "social_lunardragon",
+                        "pool_amount": 800,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_lunardragonpop_sunset",
+                        "emit_interval": 8,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            0.0,
+                            0.800000011920929,
+                            0.20000000298023224
+                        ],
+                        "chunk_size_amount": [
+                            5,
+                            15,
+                            25
+                        ],
+                        "active_duration": 1440
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 1759178769,
+        "pickup_emitters": [
+            {
+                "emitter_name": "SunsetSkater",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "sunsetskater",
+                        "pool_amount": 400,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_sunsetskater",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 2081768701,
+        "pickup_emitters": [
+            {
+                "emitter_name": "SkywaySpeedTube",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_speedtube",
+                        "pool_amount": 250,
+                        "last_chunk_seq": 9,
+                        "event_name": "social_skyway_speedtube",
+                        "emit_interval": 18,
+                        "currency_type": "wax",
+                        "collected": 9,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 2394719185,
+        "pickup_emitters": [
+            {
+                "emitter_name": "RainbowEvent",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_rainbow",
+                        "pool_amount": 500,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_rainbow_on",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 20160
+                    }
+                ]
+            },
+            {
+                "emitter_name": "RainbowRoad",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_rainbowroad",
+                        "pool_amount": 750,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_rainbowroad",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 3,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SpringCanopyTent",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_spring",
+                        "pool_amount": 500,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_spring_wax",
+                        "emit_interval": 20,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            0,
+                            0
+                        ],
+                        "active_duration": 10080
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 2720691892,
+        "pickup_emitters": [
+            {
+                "emitter_name": "RainGrandmaTable",
+                "events": [
+                    {
+                        "preactive_duration": 5,
+                        "pool_name": "global_social_tables",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_rain_grandmatable",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 6,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            9,
+                            0,
+                            0
+                        ],
+                        "active_duration": 10
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SummerSeashells",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_summer_fire",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_summer_shellsLG",
+                        "emit_interval": 150,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 6,
+                        "chunk_size_likelihood": [
+                            0.6499999761581421,
+                            0.30000001192092896,
+                            0.05000000074505806
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            5,
+                            28
+                        ],
+                        "active_duration": 10080
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_summer_fire",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_summer_shells",
+                        "emit_interval": 300,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 6,
+                        "chunk_size_likelihood": [
+                            0.6499999761581421,
+                            0.30000001192092896,
+                            0.05000000074505806
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            5,
+                            28
+                        ],
+                        "active_duration": 10080
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 2839585646,
+        "pickup_emitters": [
+            {
+                "emitter_name": "RainBonfireCamp",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_bonfire",
+                        "pool_amount": 250,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_rain_bonfirecamp",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.6000000238418579,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            4,
+                            8,
+                            18
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3051518728,
+        "pickup_emitters": [
+            {
+                "emitter_name": "LoveBlizz",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "social_blizzard",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_daysofloveblizz",
+                        "emit_interval": 4,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3057325709,
+        "pickup_emitters": [
+            {
+                "emitter_name": "NatureGeyser",
+                "events": [
+                    {
+                        "preactive_duration": 5,
+                        "pool_name": "global_nature",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_nature_geyser",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 505,
+                        "chunks_per_emit": 4,
+                        "chunk_size_likelihood": [
+                            0.5,
+                            0.30000001192092896,
+                            0.20000000298023224
+                        ],
+                        "chunk_size_amount": [
+                            5,
+                            10,
+                            15
+                        ],
+                        "active_duration": 10
+                    }
+                ]
+            },
+            {
+                "emitter_name": "NatureTurtle",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_tables",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_nature2022turtle",
+                        "emit_interval": 3,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 600
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3082753918,
+        "pickup_emitters": [
+            {
+                "emitter_name": "HalloweenCauldron",
+                "events": [
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "global_halloween",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "halloween_cauldron_spell",
+                        "emit_interval": 3,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 3
+                    }
+                ]
+            },
+            {
+                "emitter_name": "HalloweenCauldronSpell",
+                "events": [
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "global_halloween",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "halloween_cauldron_spell",
+                        "emit_interval": 90,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 7,
+                        "chunk_size_likelihood": [
+                            0.15000000596046448,
+                            0.699999988079071,
+                            0.15000000596046448
+                        ],
+                        "chunk_size_amount": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "active_duration": 5
+                    }
+                ]
+            },
+            {
+                "emitter_name": "HalloweenPit",
+                "events": [
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "global_halloween",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_halloween_week3",
+                        "emit_interval": 20,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.699999988079071,
+                            0.20000000298023224,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            4,
+                            25
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "global_halloween",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_halloween_week2",
+                        "emit_interval": 25,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.699999988079071,
+                            0.20000000298023224,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            4,
+                            25
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 1,
+                        "pool_name": "global_halloween",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_halloween_week1",
+                        "emit_interval": 30,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.699999988079071,
+                            0.20000000298023224,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            4,
+                            25
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3244931597,
+        "pickup_emitters": [
+            {
+                "emitter_name": "PrairieCozyCave",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_social_cave",
+                        "pool_amount": 250,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_prairie_cozycave",
+                        "emit_interval": 60,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            0.6000000238418579,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "chunk_size_amount": [
+                            4,
+                            8,
+                            18
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3429122502,
+        "pickup_emitters": [
+            {
+                "emitter_name": "BloomWildRainbow",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2024_fluttermedium",
+                        "emit_interval": 8,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2024_fluttermax",
+                        "emit_interval": 5,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            },
+            {
+                "emitter_name": "BloomWildSlow",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "bloom_2024_flutterslow",
+                        "emit_interval": 12,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 3526133726,
+        "pickup_emitters": [
+            {
+                "emitter_name": "CandlespaceBlizz",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "social_blizzard",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_blizz_sm",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "social_blizzard",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_blizz_lg",
+                        "emit_interval": 4,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            },
+            {
+                "emitter_name": "CandlespaceSnowHutFire",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "social_blizzard",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_snowhutfire_sm",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "social_blizzard",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_snowhutfire_lg",
+                        "emit_interval": 4,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            },
+            {
+                "emitter_name": "RainbowEvent",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_rainbow",
+                        "pool_amount": 500,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_rainbow_on",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 2,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 20160
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SakuraEmitterBlooming",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_bloom_sakura_bloom_wax02",
+                        "emit_interval": 12,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 4320
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_bloom_sakura_bloom_wax01",
+                        "emit_interval": 36,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 4320
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SakuraEmitterFalling",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_bloom_sakura_fall_wax02",
+                        "emit_interval": 6,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 8640
+                    },
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "event_bloom_2022",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_bloom_sakura_fall_wax01",
+                        "emit_interval": 9,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 4320
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SummerBonfireMd",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_summer_fire",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_summer_md",
+                        "emit_interval": 17,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 20160
+                    }
+                ]
+            },
+            {
+                "emitter_name": "SummerBonfireSm",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "global_summer_fire",
+                        "pool_amount": 1000,
+                        "last_chunk_seq": -1,
+                        "event_name": "global_summer_sm",
+                        "emit_interval": 24,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "active_duration": 10080
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "level": 4070111637,
+        "pickup_emitters": [
+            {
+                "emitter_name": "EelWaterCreature",
+                "events": [
+                    {
+                        "preactive_duration": 0,
+                        "pool_name": "eelcreature",
+                        "pool_amount": 500,
+                        "last_chunk_seq": -1,
+                        "event_name": "social_eelwatercreature",
+                        "emit_interval": 1,
+                        "currency_type": "wax",
+                        "collected": 0,
+                        "chunks_per_emit": 1,
+                        "chunk_size_likelihood": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "chunk_size_amount": [
+                            2,
+                            0,
+                            0
+                        ],
+                        "active_duration": 1439
+                    }
+                ]
+            }
+        ]
+    }
+]

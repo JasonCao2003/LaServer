@@ -1,0 +1,15 @@
+{
+  "base_event_id": 13,
+  "bench_id": 632,
+  "event_id": 13,
+  "hmac": "8b369805711c3c4584effc93a7465bd41bcf210a4eb7de4f033be2e74402d99a",
+  "influencer_id": 0,
+  "msg": "OK",
+  "platform_filter": 0,
+  "room_ip": "18.236.166.252",
+  "room_port": 41727,
+  "seat_id": 3,
+  "status": true,
+  "subevent_id": 0,
+  "timestamp": 1721143167
+}

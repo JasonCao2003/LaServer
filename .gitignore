@@ -1,0 +1,51 @@
+# Backups and archives
+/bak/
+*.bak
+*.bak_*
+*.bak[0-9]*
+*.zip
+*.7z
+*.rar
+
+# Dependencies and Python caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Runtime data, databases, logs and packet captures
+/services/*/data/
+/services/*/logs/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+*.log.*
+*.jsonl
+*.jsonl.*
+*.pid
+.sky_*
+
+# Certificates and secrets
+/services/game-api/certs/
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+/services/game-api/config.json
+/services/game-api/config/room_config.json
+/apps/admin/*.json
+/services/game-api/resources/static_responses/account__auth__login.json
+/services/game-api/resources/static_responses/starwatch__auth__api__v1__auth.json
+
+# Local editor and OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

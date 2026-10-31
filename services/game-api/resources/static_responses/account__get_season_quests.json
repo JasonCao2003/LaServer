@@ -1,0 +1,54 @@
+{
+  "has_season_quests_rewards": [
+    {
+      "daily_quest_def_id": "visit_rainbow_prairie",
+      "date": "2024-07-12",
+      "rewarded": false
+    },
+    {
+      "daily_quest_def_id": "visit_prairie_cozycave",
+      "date": "2024-07-12",
+      "rewarded": false
+    },
+    {
+      "daily_quest_def_id": "lightseeker_prairie",
+      "date": "2024-07-12",
+      "rewarded": false
+    },
+    {
+      "daily_quest_def_id": "world_quest_prairie_thumbsup",
+      "date": "2024-07-12",
+      "rewarded": false
+    }
+  ],
+  "season_quests": [
+    {
+      "activated": false,
+      "daily_quest_def_id": "visit_rainbow_prairie",
+      "date": "2024-07-12",
+      "start_value": -1.0,
+      "stat_type": "visit_rainbow_prairie_count"
+    },
+    {
+      "activated": false,
+      "daily_quest_def_id": "visit_prairie_cozycave",
+      "date": "2024-07-12",
+      "start_value": -1.0,
+      "stat_type": "visit_prairie_cozycave_count"
+    },
+    {
+      "activated": false,
+      "daily_quest_def_id": "lightseeker_prairie",
+      "date": "2024-07-12",
+      "start_value": -1.0,
+      "stat_type": "lightseeker_prairie_count"
+    },
+    {
+      "activated": false,
+      "daily_quest_def_id": "world_quest_prairie_thumbsup",
+      "date": "2024-07-12",
+      "start_value": -1.0,
+      "stat_type": "world_quest_prairie_thumbsup_count"
+    }
+  ]
+}

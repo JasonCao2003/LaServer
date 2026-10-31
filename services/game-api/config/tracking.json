@@ -1,0 +1,1569 @@
+{
+  "achievement_stats": [
+    {
+      "type": "visit_night_vase_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_night_main_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_count",
+      "value": 40000000000,
+      "update": 1724894202
+    },
+    {
+      "type": "world_quest_dawn_come_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "neck_change_count",
+      "value": 13,
+      "update": 1738138669
+    },
+    {
+      "type": "world_quest_prairie_yawn_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_scared_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "deposit_63_statues_count",
+      "value": 360,
+      "update": 1692419146
+    },
+    {
+      "type": "rainbow_rainbow_rain_01_time",
+      "value": 720,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_ghost_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_mind_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "highest_music_score_percent",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap10_fetch_01_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_sunset_ice_rink_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "high_intensity_shard_completed_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dawn_trialsair_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "rainbow_rainbow_prairie_01_time",
+      "value": 720,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_backflip_count",
+      "value": 1345294500,
+      "update": 1692419146
+    },
+    {
+      "type": "dusk_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_rain_rainmid_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "activated_ancestor_engine_2_count",
+      "value": 40000000000,
+      "update": 1724894291
+    },
+    {
+      "type": "world_quest_ap10_fetch_03_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "completed_season_final_quest_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dusk_gravepillar_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_grumpy_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "cherry_sappling_night_01_time",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_in_dusk_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "night_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "high_five_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "pants_change_count",
+      "value": 40000000000,
+      "update": 1737304970
+    },
+    {
+      "type": "spirit_selfie_evillaugh_count",
+      "value": 240,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_day_birds_nest_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "horn_change_count",
+      "value": 13,
+      "update": 1738138669
+    },
+    {
+      "type": "music_sheet_80_percent_count",
+      "value": 300,
+      "update": 1692419146
+    },
+    {
+      "type": "lightseeker_prairie_count",
+      "value": 600,
+      "update": 1692419146
+    },
+    {
+      "type": "sunset_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "rebirth_count",
+      "value": 543,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_sarcastic_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "highest_carry_stack_count",
+      "value": 543,
+      "update": 1738138344
+    },
+    {
+      "type": "highest_cape_level",
+      "value": 552,
+      "update": 1692419146
+    },
+    {
+      "type": "wax_pickup_count",
+      "value": 40000000000,
+      "update": 1738136147
+    },
+    {
+      "type": "meditate_dusk_main_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_at_shrine_in_day_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_oasis_shrug_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "wounded_players_healed_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_proud_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_eww_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "remote_avatar_charge_count",
+      "value": 40000000000,
+      "update": 1738135847
+    },
+    {
+      "type": "seen_by_dark_creature_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "hand_hold_count",
+      "value": 40000000000,
+      "update": 1720614006
+    },
+    {
+      "type": "visit_night_kissing_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "rainbow_rainbow_night_01_time",
+      "value": 720,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_float_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meet_day_ancestor_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_sunset_main_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_rain_rainforest_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rainbow_night_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_tsktsk_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_sneaky_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_oasis_nod_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_chuckle_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dusk_cannon_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_village_peek_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_timid_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "rain_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_juggle_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "earn_10_wings_count",
+      "value": 364,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_tgc_office_staff_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_village_bearhug_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap10_fetch_05_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_at_shrine_in_rain_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "completed_season_quest_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "day_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "emotes_used_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap09_fetch_01_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_shy_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_oasis_crabwalk_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_rain_main_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_in_sunset_count",
+      "value": 40000000000,
+      "update": 1693054748
+    },
+    {
+      "type": "visit_day_fairyring_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_cheer_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "hand_hold_group_size_4_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_bubbles_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_think_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dusk_oasis_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_balance_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_water_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap10_fetch_02_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_love_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "cherry_sappling_prairie_01_time",
+      "value": 600,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_laugh_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "summon_all_elders_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_bow_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dusk_barricades_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_doublefive_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_carry_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_strong_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_crabvoice_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_loopdance_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_sunset_twins_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fist_bump_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dawn_trialsfire_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_cold_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap09_fetch_03_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "hair_change_count",
+      "value": 40000000000,
+      "update": 1738138669
+    },
+    {
+      "type": "cherry_sappling_sunset_01_time",
+      "value": 1345294500,
+      "update": 1692419146
+    },
+    {
+      "type": "downed_rescue_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "collectible_count",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_brave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_nature_vortex3_count",
+      "value": 240,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap10_fetch_04_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_brave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meet_dusk_ancestor_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "storm_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_village_spintrick_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_at_shrine_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "friend_count",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_in_rain_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_island_pollution_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_wave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "carry_crab_1000_count",
+      "value": 240,
+      "update": 1692419146
+    },
+    {
+      "type": "lightseeker_forest_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_kiss_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_sunset_labyrinth_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "lightseeker_valley_count",
+      "value": 1345294500,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_fire_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_day_koi_pond_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_wise_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "deepest_dive_depth",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_village_koi_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_scared_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "best_friend_count",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "highest_flight_altitude",
+      "value": 635.56189,
+      "update": 1692419146
+    },
+    {
+      "type": "rainbow_rainbow_sunset_01_time",
+      "value": 720,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_kungfu_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "rainbow_rainbow_dusk_01_time",
+      "value": 720,
+      "update": 1692419146
+    },
+    {
+      "type": "grandma_meals_attended_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "sit_at_a_bench_with_a_stranger_count",
+      "value": 40000000000,
+      "update": 1693055408
+    },
+    {
+      "type": "meditate_tgc_office_xmas_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "non_unique_hand_hold_count",
+      "value": 40000000000,
+      "update": 1724894638
+    },
+    {
+      "type": "visit_fairy_ring_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "summon_oreo_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_respect_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_village_showdance_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_force_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_wipe_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_shh_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "bowed_at_player_count",
+      "value": 40000000000,
+      "update": 1720610652
+    },
+    {
+      "type": "summon_one_elder_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "cherry_sappling_dusk_01_time",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_die_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_random_game_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_in_night_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_sunset_goldstatue_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_dance_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "cherry_sappling_rain_01_time",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "highest_beacon_power",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "received_gift_count",
+      "value": 40000000000,
+      "update": 1738136226
+    },
+    {
+      "type": "beacon_power_5_count",
+      "value": 300,
+      "update": 1692419146
+    },
+    {
+      "type": "fly_continuously_1_minute_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meet_night_ancestor_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_night_pray_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_acknowledge_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dawn_trialsearth_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "non_unique_high_five_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap09_fetch_04_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_at_shrine_in_sunset_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_nature_vortex1_count",
+      "value": 300,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rainbow_rain_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_tgc_office_nye_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_manta_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "shroom_charge_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_facepalm_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_day_temple_summit_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_1_player_count",
+      "value": 40000000000,
+      "update": 1738136188
+    },
+    {
+      "type": "consecutive_days_played",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_cry_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_ohno_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_nestkeeper_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "use_teleport_to_home_count",
+      "value": 40000000000,
+      "update": 1738135928
+    },
+    {
+      "type": "world_quest_dawn_deepbreath_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rain_well_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "retrieved_lost_collectible_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_hairtousle_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_gratitude_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "wave_at_friend_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_wave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_night_meteor_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rainbow_dusk_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_butterfly_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "non_unique_fist_bump_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "birds_released_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_thumbsup_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dusk_spitroast_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_point_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "lightseeker_vault_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rainbow_sunset_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "hand_hold_group_size_8_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "mask_change_count",
+      "value": 40000000000,
+      "update": 1737349659
+    },
+    {
+      "type": "world_quest_prairie_bellyscratch_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "shoute_at_crab_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "single_run_deposits_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "activated_ancestor_engine_4_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_handstand_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_night_main2_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dusk_salute_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_village_faerie_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_bird_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_island_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_force_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_5_players_count",
+      "value": 40000000000,
+      "update": 1724894641
+    },
+    {
+      "type": "world_quest_dusk_dontgo_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_seek_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_nothanks_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "jellyfish_charge_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "cape_change_count",
+      "value": 40000000000,
+      "update": 1738138670
+    },
+    {
+      "type": "visit_prairie_cozycave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "light_candle_count",
+      "value": 40000000000,
+      "update": 1738136145
+    },
+    {
+      "type": "world_quest_rain_sorry_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "catapulted_friends_count",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "highest_friendship_level",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap10_fetch_06_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "activated_ancestor_engine_8_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_3_players_count",
+      "value": 40000000000,
+      "update": 1724894428
+    },
+    {
+      "type": "world_quest_rain_marching_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_rally_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "feet_change_count",
+      "value": 13,
+      "update": 1738138669
+    },
+    {
+      "type": "visit_rain_mural_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "non_unique_downed_rescue_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "darkstone_melted_count",
+      "value": 40000000000,
+      "update": 1737350741
+    },
+    {
+      "type": "world_quest_rain_pout_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dusk_graveyard_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "find_4_player_door_count",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "forged_candle_count",
+      "value": 40000000000,
+      "update": 1737351364
+    },
+    {
+      "type": "world_quest_oasis_doze_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_tripleaxel_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_sunset_raceend_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_lazycool_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_celebrate_count",
+      "value": 600,
+      "update": 1692419146
+    },
+    {
+      "type": "krill_tails_touched",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dawn_temple_exit",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "express_an_emote_to_friends_count",
+      "value": 40000000000,
+      "update": 1724894424
+    },
+    {
+      "type": "world_quest_dusk_lookaround_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_nature_vortex2_count",
+      "value": 300,
+      "update": 1692419146
+    },
+    {
+      "type": "bird_attach_count",
+      "value": 730,
+      "update": 1737350715
+    },
+    {
+      "type": "meditate_dusk_duskmid_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_sunset_hotspring_time",
+      "value": 1345294500,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_chestpound_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rainbow_prairie_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_night_waterfall_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "emotes_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_jelly_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_oasis_playfight_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_sass_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "find_2_player_door_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_at_shrine_in_night_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_dusk_peak_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "lightseeker_wasteland_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_cold_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_ap09_fetch_02_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "flower_charge_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_wind_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_love_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_night_night2_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "avatar_charge_count",
+      "value": 40000000000,
+      "update": 1724893745
+    },
+    {
+      "type": "dawn_collectibles_collected_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_dawn_dustoff_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_salutation_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_dawn_trialswater_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "stack_8_players_count",
+      "value": 360,
+      "update": 1692419146
+    },
+    {
+      "type": "hug_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_strong_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "sent_gift_count",
+      "value": 40000000000,
+      "update": 1724894395
+    },
+    {
+      "type": "meditate_dusk_crabfields_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_prairie_cave_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_skyway_speedtube_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fly_continuously_2_minute_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_sparkler_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "engine_activated_count",
+      "value": 40000000000,
+      "update": 1734325292
+    },
+    {
+      "type": "join_2_players_count",
+      "value": 40000000000,
+      "update": 1738135837
+    },
+    {
+      "type": "spirit_cry_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_rain_rainend_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_sunset_citadel2_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_selfie_crabwalk_count",
+      "value": 240,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_void_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_rain_shelter_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fly_500_units_high_count",
+      "value": 360,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_bow_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rain_grandmatable_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "interact_with_invite_shrine_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_stormy_event_count",
+      "value": 660,
+      "update": 1692419146
+    },
+    {
+      "type": "non_unique_hug_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "new_acquaintance_count",
+      "value": 40000000000,
+      "update": 1738135793
+    },
+    {
+      "type": "visit_rain_eaglenest_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meet_dawn_ancestor_count",
+      "value": 780,
+      "update": 1692419146
+    },
+    {
+      "type": "furthest_crab_carry",
+      "value": 540,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rain_bonfirecamp_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_oasis_scare_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "fetchlight_earth_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "meditate_sunset_citadel_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_sunset_joy_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_7_players_count",
+      "value": 40000000000,
+      "update": 1724894636
+    },
+    {
+      "type": "spirit_butterfly_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "follow_in_day_count",
+      "value": 40000000000,
+      "update": 1724894202
+    },
+    {
+      "type": "visit_night_table_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "visit_rain_whale_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_rain_whale_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "join_4_players_count",
+      "value": 40000000000,
+      "update": 1724894477
+    },
+    {
+      "type": "meditate_at_shrine_in_dusk_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "world_quest_prairie_butterfly_count",
+      "value": 40000000000,
+      "update": 1692419146
+    },
+    {
+      "type": "spirit_selfie_grumpy_count",
+      "value": 240,
+      "update": 1692419146
+    },
+    {
+      "type": "join_6_players_count",
+      "value": 40000000000,
+      "update": 1724894630
+    },
+    {
+      "type": "visit_sunset_highbeam_count",
+      "value": 40000000000,
+      "update": 1692419146
+    }
+  ]
+}

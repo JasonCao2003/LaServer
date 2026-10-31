@@ -1,0 +1,44 @@
+{
+  "collectibles": [
+    {
+      "id": "flame",
+      "used": true,
+      "candle_space": true,
+      "carrying": false,
+      "level": 0,
+      "permanent_level": 0
+    },
+    {
+      "id": "home",
+      "used": true,
+      "candle_space": true,
+      "carrying": false,
+      "level": 0,
+      "permanent_level": 0
+    },
+    {
+      "id": "normal",
+      "used": true,
+      "candle_space": true,
+      "carrying": false,
+      "level": 0,
+      "permanent_level": 0
+    },
+    {
+      "id": "sit",
+      "used": true,
+      "candle_space": true,
+      "carrying": false,
+      "level": 1,
+      "permanent_level": 1
+    },
+    {
+      "id": "skykid",
+      "used": true,
+      "candle_space": true,
+      "carrying": false,
+      "level": 0,
+      "permanent_level": 0
+    }
+  ]
+}

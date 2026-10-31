@@ -1,0 +1,27 @@
+{
+  "bonus_amount": 23,
+  "bonus_wax_amount": 23,
+  "currency": {
+    "candles": 8,
+    "wax": 237
+  },
+  "result": "ok",
+  "update_forge_rates": [
+    {
+      "current_level": 4,
+      "current_tier": 23,
+      "enabled": true,
+      "level_completion": 0.7212564300745725,
+      "level_tier_count": 5,
+      "level_tier_index": 3,
+      "reset_acknowledged": true,
+      "source_type": "wax",
+      "tier_completion": 0.6062821503728628
+    }
+  ],
+  "update_world_quest": {
+    "cooldown_over_time": 1720854000,
+    "ever_completed": true,
+    "world_quest_def_id": "sunset_race"
+  }
+}

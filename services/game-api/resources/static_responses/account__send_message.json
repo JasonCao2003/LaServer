@@ -1,0 +1,27 @@
+{
+  "currency": {
+    "candles": 233,
+    "event_candle_days_of_sky": 2,
+    "heart": 14,
+    "heart_wax": 50,
+    "prestige": 1910,
+    "prestige_vip": 3381,
+    "prestige_wax": 2,
+    "season_candle": 14,
+    "season_candle_22": 19,
+    "season_wax": 0,
+    "season_wax_22": 6,
+    "vip": 3050,
+    "wax": 17
+  },
+  "result": "ok",
+  "sent_message": {
+    "currency_count": 3,
+    "currency_type": "candles",
+    "gift_id": 13216451102,
+    "msg_id": 13216451102,
+    "recvd": false,
+    "to_id": "b94a3499-dcc4-47d8-8bea-59f983cbe14b",
+    "type": "gift"
+  }
+}
