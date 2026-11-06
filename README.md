@@ -2,6 +2,35 @@
 
 SkyLightAwaits 的游戏业务与实时联机服务端，包含 Python HTTP 服务、Node.js UDP 联机服务及桌面管理面板。
 
+## 项目架构
+
+游戏业务服务与实时联机服务可以独立启动。客户端先通过 HTTPS 登录、读取账号与好友数据并获取房间地址，再直接连接实时联机服务，完成进房、玩家同步和实时消息传输。
+
+```mermaid
+flowchart LR
+    Client["Sky 游戏客户端"]
+    API["游戏业务服务<br/>Flask / Socket.IO"]
+    Room["实时联机服务<br/>Node.js / ENet"]
+    Admin["桌面管理面板<br/>Python / Tkinter"]
+    DB[("SQLite 游戏数据库")]
+
+    Client -->|"HTTPS · 登录与房间地址"| API
+    Client -->|"ENet/UDP · 进房与实时同步"| Room
+    API --> DB
+    Admin -->|"服务启停与配置"| API
+    Admin -->|"服务启停与本机 HTTP 监控"| Room
+    Admin -->|"部分账号操作"| DB
+```
+
+| 模块 | 入口 | 职责 |
+| --- | --- | --- |
+| 游戏业务服务 | [`sky_boot.py`](services/game-api/sky_boot.py) | 引导 [`index.py`](services/game-api/index.py) 初始化 Flask、Socket.IO 和数据库。业务层负责账号、好友、任务和管理接口，基础设施层负责数据访问、静态响应、监控与传输。 |
+| 实时联机服务 | [`main.js`](services/realtime-server/src/main.js) | 启动房间服务和本机管理 HTTP。会话层维护房间与玩家状态，协议层处理版本兼容，传输层负责 ENet，监控层记录指标和数据包。 |
+| 桌面管理面板 | [`admin_panel_client.py`](apps/admin/admin_panel_client.py) | 管理服务启停、配置、账号和接口响应，并通过联机服务的管理 HTTP 查看监控数据。部分账号操作直接访问 SQLite。 |
+| 客户端适配工具 | [`tools/patches/`](tools/patches/) | 保存 APK 和二进制适配脚本，可独立于服务执行。 |
+
+启动示例使用业务 HTTPS `8443/TCP`、联机 `25565/UDP` 和本机管理 HTTP `127.0.0.1:8080`。部署时，`config/room_config.json` 中下发给客户端的地址和端口应与客户端实际可达的 UDP 地址和端口一致。[启动与端口配置](docs/STARTUP.md)
+
 ## 项目结构
 
 ```text
