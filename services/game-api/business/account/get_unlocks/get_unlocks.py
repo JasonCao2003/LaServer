@@ -183,7 +183,22 @@ def finalize_unlocks(items, ver):
 
     闸门永远在最后: 返回值已经 <= 限制, 长度就是客户端要的 unlocks_total_count。
     """
-    out = _order_unlocks(list(items or []))
+    out = list(items or [])
+    # Optional exact-client allowlist from parsed OutfitDefs, not texture names.
+    # Only filters the response; stored ownership is preserved.
+    try:
+        with open(os.path.join(CONFIG_DIR, "outfit_response_allowlists.json"), encoding="utf-8") as f:
+            profiles = json.load(f)
+        ua = request.headers.get("User-Agent", "")
+        full = ua.split("/", 1)[1].split(" ", 1)[0] if "/" in ua else ""
+        allowed = profiles.get(full)
+        if isinstance(allowed, list) and allowed:
+            allowed = set(allowed)
+            out = [item for item in out if not str(item.get("name", "")).startswith("Char")
+                   or item.get("name") in allowed]
+    except FileNotFoundError:
+        pass
+    out = _order_unlocks(out)
     legacy, modern = _unlock_limits()
     if ver is None or ver < (0, 26, 0):
         out = _cap_unlocks(out, legacy)

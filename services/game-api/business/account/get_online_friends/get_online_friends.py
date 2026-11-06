@@ -91,66 +91,9 @@ def get_online_friends():
             # 方法0(最准): UDP 节点里还有这个 uuid -> 真的在线上
             is_online = friend_id in online_ids
 
-            # 方法1: 检查好友是否在session缓存中（最近验证过session）
-            cache_key = f"{friend_id}:{friend_session}"
-            current_time = time.time()
-            
-            _session_cache_lock.acquire()
-            try:
-                if cache_key in _session_cache:
-                    cached_data, cached_time = _session_cache[cache_key]
-                    # 如果session在最近1分钟内被验证过，视为在线
-                    if current_time - cached_time < 60:  # 1分钟内的活动视为在线
-                        is_online = True
-            finally:
-                _session_cache_lock.release()
-            
-            # 方法2: 检查好友的session最近是否被使用（基于数据库记录）
-            # 可以检查好友的最后活动时间或session创建时间
-            if not is_online:
-                # 如果好友的session是最近生成的，也可以视为在线
-                # 这里假设session字段是每次登录都会更新的
-                try:
-                    last_activity_time = 0
-                    
-                    # 从friend_status获取最后互动时间
-                    friend_status = FriendStatus.query.filter_by(
-                        user_id=user_id, 
-                        friend_id=friend_id
-                    ).first()
-                    
-                    if friend_status and hasattr(friend_status, 'updated_at'):
-                        # 如果friend_status有更新时间，使用它
-                        if friend_status.updated_at:
-                            last_activity_time = int(friend_status.updated_at.timestamp())
-                    elif friend_user.created_at:
-                        last_activity_time = friend_user.created_at
-                    
-                    # 如果最近30分钟内有活动，视为可能在线
-                    if last_activity_time > 0 and (current_time - last_activity_time) < 1800:
-                        is_online = True
-                except Exception as e:
-                    logger.error(f"Error checking friend activity time: {str(e)}")
-            
-            # 方法3: 检查好友是否有pending_messages（如果有消息系统）
-            if not is_online:
-                try:
-                    _pending_messages_lock.acquire()
-                    if friend_id in pending_messages and len(pending_messages[friend_id]) > 0:
-                        recent_messages = [
-                            msg for msg in pending_messages[friend_id] 
-                            if current_time - msg.get('timestamp', 0) < 300  # 5分钟内的消息
-                        ]
-                        if len(recent_messages) > 0:
-                            is_online = True
-                except:
-                    pass
-                finally:
-                    try:
-                        _pending_messages_lock.release()
-                    except:
-                        pass
-            
+            # Online presence is determined by the live UDP registry. A nickname
+            # edit, friendship timestamp or queued message cannot prove presence;
+            # treating them as online suppresses the next offline-to-online edge.
             if is_online:
                 online_friends.append(friend_id)
 

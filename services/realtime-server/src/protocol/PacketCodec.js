@@ -166,29 +166,51 @@ function decodeJoinGameTolerant(buffer, headerLen) {
 }
 
 export class PacketCodec {
-  decodeClient(buffer) {
+  decodeClient(buffer, { layout } = {}) {
     const [standard, legacy] = CLIENT_HEADER_LAYOUTS;
     let standardError = null;
 
+    // A known two-byte JoinGame must win before trying the token header:
+    // UUID bytes at offset 4 can otherwise look like a valid packet ID (even
+    // Disconnect, whose decoder consumes no payload). MuMu 0.13.4 reproduces
+    // this with a 1929-byte join incorrectly accepted as Disconnect.
+    const legacyPayload = buffer.subarray(legacy.headerLen);
+    if (layout !== standard.name && buffer[0] === PacketIds.JoinGame
+      && (sky0122JoinInfo(legacyPayload)
+        || sky071JoinInfo(legacyPayload)
+        || sky0134JoinInfo(legacyPayload))) {
+      return {
+        id: PacketIds.JoinGame,
+        name: packetTypes.get(PacketIds.JoinGame)?.name ?? 'JoinGamePacket',
+        token: 0,
+        sequence: buffer[1],
+        layout: 'tolerant-join',
+        payload: decodeJoinGameTolerant(buffer, legacy.headerLen),
+        tolerant: true
+      };
+    }
+
     // ---- 1) 标准布局(token:u32 + id:u8 + seq:u8): 新客户端, 行为与改动前一致 ----
     let standardHead = null;
-    try {
-      const reader = new BinaryReader(buffer);
-      standardHead = standard.read(reader);
-      const packetType = packetTypes.get(standardHead.id);
-      if (packetType?.decode) {
-        const payload = packetType.decode(reader, { fromServer: false });
-        return {
-          id: standardHead.id,
-          name: packetType.name,
-          token: standardHead.token,
-          sequence: standardHead.sequence,
-          layout: standard.name,
-          payload
-        };
+    if (layout !== 'id+seq' && layout !== 'tolerant-join') {
+      try {
+        const reader = new BinaryReader(buffer);
+        standardHead = standard.read(reader);
+        const packetType = packetTypes.get(standardHead.id);
+        if (packetType?.decode) {
+          const payload = packetType.decode(reader, { fromServer: false });
+          return {
+            id: standardHead.id,
+            name: packetType.name,
+            token: standardHead.token,
+            sequence: standardHead.sequence,
+            layout: standard.name,
+            payload
+          };
+        }
+      } catch (error) {
+        standardError = error;   // 记下, 最后仍解不出来时原样抛出(保持原有严格性)
       }
-    } catch (error) {
-      standardError = error;   // 记下, 最后仍解不出来时原样抛出(保持原有严格性)
     }
 
     // ---- 2) 老客户端布局(id:u8 + seq:u8): 实测 0.12.1 客户端就是这种包头 ----
@@ -213,34 +235,6 @@ export class PacketCodec {
           unsupported: true,
           unsupportedId: legacyHead.id
         };
-      }
-
-      // 0.12.2 的 JoinGame 与“严格布局”只差几个字节, 极端情况下严格解析可能
-      // “碰巧成功”并返回错位的 levelId / 丢掉引擎标记。命中 275/516 指纹时直接
-      // 走宽容解析, 保证 0.12.2 的判定优先级最高。其它版本这里 sky0122JoinInfo
-      // 恒为 null, 仍然先走原来的严格解析, 一个字节都不变。
-      // 0.7.1 (252/477) 同理: 严格解析可能"碰巧成功"并丢掉引擎标记,
-      // 命中指纹时优先走宽容解析。它的指纹与 0.12.2 (275/516) 互斥,
-      // 任一命中的都是本分支, 没命中的版本行为一个字节都不变。
-      // 0.13.4 家族(含 0.14.0 / su-Sky 重打包)同理: 严格解析如果"碰巧成功",
-      // 会带着错位的 levelId 返回, 还会丢掉 sky0134 标记 → 被当成 legacy 引擎
-      // → 发 EnterGame(5) → 同地图看不见人。命中指纹时优先走宽容解析。
-      if (legacyHead.id === PacketIds.JoinGame
-        && (sky0122JoinInfo(buffer.subarray(legacy.headerLen))
-          || sky071JoinInfo(buffer.subarray(legacy.headerLen))
-          || sky0134JoinInfo(buffer.subarray(legacy.headerLen)))) {
-        const tolerant = decodeJoinGameTolerant(buffer, legacy.headerLen);
-        if (tolerant) {
-          return {
-            id: PacketIds.JoinGame,
-            name: packetTypes.get(PacketIds.JoinGame)?.name ?? 'JoinGamePacket',
-            token: 0,
-            sequence: legacyHead.sequence,
-            layout: 'tolerant-join',
-            payload: tolerant,
-            tolerant: true
-          };
-        }
       }
 
       const packetType = packetTypes.get(legacyHead.id);

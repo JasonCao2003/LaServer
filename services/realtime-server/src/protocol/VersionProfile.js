@@ -203,13 +203,10 @@ export function sameEffectiveFamily(a, b) {
   return effectiveFamilyOf(a) === effectiveFamilyOf(b);
 }
 
-// ── GameMsg 类型 / 内嵌 RPC id 的能力上限 ────────────────────────────────────
-// 0.13.4 / 0.13.4.3 (284/541, 284/542) 的客户端里:
-//   * GameMsg 类型枚举只到 16, 没有 19~24 的演出/观众类;
-//   * NetRpc 的 RPC 枚举也只到 16。
-// 一旦收到更高编号, 客户端 BinaryStream 直接断言
-//   "val out of range: 20 in [0, 16], please check CLIENT_VERSION if RPCs have changed"
-// 并闪退。所以哪怕隔离键万一算错/被关闭, 转发前也要按目标能力再挡一道。
+// Compatibility policy for modern audience GameMsg types on 0.13.4.
+// This limit does not describe NetRpc IDs: those are encoded in a bitstream
+// against a runtime registration bound. The observed 20-in-[0,16] crash in
+// Sky#W was caused by its GetCapeLevel hook, not evidence of an RPC ID limit.
 const GAME_MSG_LIMIT_0134 = 16;
 
 export function gameMsgTypeLimitOf(entity) {
@@ -217,10 +214,6 @@ export function gameMsgTypeLimitOf(entity) {
   return family === 'mqtt-284-541' || family === 'mqtt-284-542'
     ? GAME_MSG_LIMIT_0134
     : 255;
-}
-
-export function rpcIdLimitOf(entity) {
-  return gameMsgTypeLimitOf(entity);
 }
 
 // 该玩家(按其协议族)应该收到哪个 id 的 "进游戏" 包。

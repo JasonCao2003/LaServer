@@ -8,7 +8,7 @@ import {
 } from '../protocol/packets/GameMsgPacket.js';
 import { decodeNetLevelDataMsg, encodeNetLevelDataMsg } from '../protocol/types/NetLevelDataMsg.js';
 import { behaviour } from '../config/behaviour.js';
-import { effectiveFamilyOf, gameMsgTypeLimitOf, rpcIdLimitOf } from '../protocol/VersionProfile.js';
+import { effectiveFamilyOf, gameMsgTypeLimitOf } from '../protocol/VersionProfile.js';
 // 0.7.1 专属: 中继帧长度字段 u16(见 versions/sky071Engine.js 文件头第 2 段)。
 import { isSky071Entity, sky071PlayerStateFrame } from '../protocol/versions/sky071Engine.js';
 
@@ -737,9 +737,6 @@ export class GameMessageService {
     let forwarded = 0;
     let skippedCrossFamily = 0;
     let skippedUnsupported = 0;
-    const rpcId = payload.type === GameMsgType.NetRpc && payload.rpcData?.length
-      ? payload.rpcData[0]
-      : null;
 
     for (const target of this.players.listInLevel(source.levelId)) {
       if (target === source || target.session === sourceSession) {
@@ -751,14 +748,11 @@ export class GameMessageService {
         continue;
       }
 
-      // 目标客户端能力兜底(见 VersionProfile.gameMsgTypeLimitOf):
-      // 0.13.4 的 GameMsg 类型枚举只到 16、内嵌 RPC 枚举也只到 16, 收到 19~24
-      // 或 RPC 17+ 会直接断言闪退("20 in [0, 16]")。宁可这一条不转发。
+      // Keep the version policy for modern GameMsg types. NetRpc itself is a
+      // bitstream: its first byte is not an RPC ID. The 169938 reader decodes
+      // the ID with a runtime registration bound, so relay that payload intact
+      // within the existing same-protocol-family boundary.
       if (typeof payload.type === 'number' && payload.type > gameMsgTypeLimitOf(target)) {
-        skippedUnsupported += 1;
-        continue;
-      }
-      if (rpcId !== null && rpcId > rpcIdLimitOf(target)) {
         skippedUnsupported += 1;
         continue;
       }
@@ -780,11 +774,10 @@ export class GameMessageService {
         sourcePlayerId: source.id,
         levelId: source.levelId,
         type: payload.type,
-        rpcId,
         forwarded,
         skippedCrossFamily,
         skippedUnsupported
-      }, 'skipped GameMsg relay: target version does not support this type/rpc id');
+      }, 'skipped GameMsg relay: target version does not support this type');
     }
 
     return forwarded;

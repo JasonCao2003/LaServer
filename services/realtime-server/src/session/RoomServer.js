@@ -255,7 +255,11 @@ export class RoomServer {
     }
 
     try {
-      const packet = this.codec.decodeClient(data);
+      // Once JoinGame establishes a player's header, payload bytes must not
+      // select another layout (old LevelUpdate can otherwise look like Disconnect).
+      const packet = this.codec.decodeClient(data, {
+        layout: session.player ? session.layout : undefined
+      });
 
       // 老客户端版本不支持的包(例如 0.12.1 的 MoveGame/GameMsg): 直接跳过,
       // 既不广播也不计入坏包 —— 否则累计 8 个包后客户端会被踢, 表现为"看不见对方"。

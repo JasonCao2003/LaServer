@@ -9,6 +9,7 @@ from infrastructure.database.models import db, User
 import json
 import uuid
 import hashlib
+import secrets
 import time
 
 def parse_user_agent(user_agent):
@@ -166,7 +167,9 @@ def create_account():
             "authinfo": {
                 "user": new_user.id,
                 "device": new_user.device_identifier,
-                "key": "no_bcrypt",
+                # AccountAuthInfo decodes this field as hexadecimal bytes.
+                # A non-hex placeholder leaves an unusable saved login key.
+                "key": secrets.token_hex(32),
                 "recovery_token": new_user.recovery_token
             },
             "session": new_user.session,

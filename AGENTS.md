@@ -1,5 +1,10 @@
 # Repository Guidelines
 
+## 修复记录与跨版本复用
+
+- 每次修复问题后，将如何修复的写到对应的 TodoList 中，包括根因、修改位置、具体修复方法、验证结果及适用版本。
+- 其他版本可能也存在相同问题，解决方案可以复用；记录可复用的思路和版本差异，跨版本应用前核对协议、资源和二进制证据，不直接照搬偏移或补丁。
+
 ## Project Structure & Module Organization
 
 - `services/game-api/` contains the Python Flask server. `index.py` initializes the application; `business/account/`, `business/admin/`, and `business/service/` hold endpoint and service code. Shared behavior lives in `business/helpers/`, with database models in `infrastructure/database/models.py`.
