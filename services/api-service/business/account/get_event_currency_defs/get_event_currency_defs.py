@@ -1,0 +1,170 @@
+# -*- coding: utf-8 -*-
+"""
+接口: /account/get_event_currency_defs
+函数: get_event_currency_defs()
+获取活动货币定义
+"""
+from flask import request, jsonify
+
+def get_event_currency_defs():
+    try:
+        data = request.get_json(force=True)
+        
+        if not data or 'user' not in data:
+            return jsonify({'error': 'Missing required fields'}), 400
+        
+        response_data = {
+            "event_currency_defs": [
+                {
+                    "id": "days_of_aurora",
+                    "event_name": "global_aurora_ec_off",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyAurora",
+                    "client_currency": "event_candle_days_of_aurora",
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_bloom",
+                    "event_name": "global_bloom",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyBloom",
+                    "client_currency": "event_candle_days_of_bloom",
+                    "forge_cost": 12,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_cafe",
+                    "event_name": "global_cafe",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyCafe",
+                    "client_currency": "event_candle_days_of_pastrycafe",
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_color",
+                    "event_name": "global_rainbow",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyColor",
+                    "client_currency": "event_candle_days_of_color",
+                    "forge_cost": 12,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_competition",
+                    "event_name": "global_competition",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyCompetition",
+                    "client_currency": "event_candle_days_of_competition",
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_fashion",
+                    "event_name": "global_fashion",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyFashion",
+                    "client_currency": "event_candle_days_of_fashion",
+                    "forge_cost": 30,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_feast",
+                    "event_name": "global_feast",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyFeast",
+                    "client_currency": "event_candle_days_of_feast",
+                    "forge_cost": 16,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_fireworks",
+                    "event_name": "global_fireworks",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyFireworks",
+                    "client_currency": "event_candle_days_of_fireworks",
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_fortune",
+                    "event_name": "global_daysoffortune",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyFortune",
+                    "client_currency": "event_candle_days_of_fortune",
+                    "forge_cost": 30,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_love",
+                    "event_name": "global_daysoflove",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyLove",
+                    "client_currency": "event_candle_days_of_love",
+                    "forge_cost": 20,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_mischief",
+                    "event_name": "global_halloween",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyMischief",
+                    "client_currency": "event_candle_days_of_mischief",
+                    "forge_cost": 40,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_moonlight",
+                    "event_name": "global_moonlight",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyMoonlight",
+                    "client_currency": "event_candle_days_of_moonlight",
+                    "forge_cost": 12,
+                    "forge_rate_reset_event": "global_daily_reset_time",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_music",
+                    "event_name": "global_music",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyMusic",
+                    "client_currency": "event_candle_days_of_music",
+                    "forge_cost": 20,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_nature",
+                    "event_name": "global_nature_2025",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencyNature",
+                    "client_currency": "event_candle_days_of_nature",
+                    "forge_cost": 20,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                },
+                {
+                    "id": "days_of_sky",
+                    "event_name": "global_skyfest",
+                    "name_string_key": "currency_type_event_candle",
+                    "hud_icon": "UiMenuEventCurrencySky",
+                    "client_currency": "event_candle_days_of_sky",
+                    "forge_cost": 6,
+                    "forge_rate_reset_event": "",
+                    "purchasable": False
+                }
+            ]
+        }
+        
+        return jsonify(response_data), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500

@@ -1,0 +1,36 @@
+{
+  "quest_schedule": [
+    {
+      "epoch": 1768291200,
+      "quest_id": "lightseeker_prairie"
+    },
+    {
+      "epoch": 1768291200,
+      "quest_id": "meditate_prairie_nestkeeper"
+    },
+    {
+      "epoch": 1768291200,
+      "quest_id": "spirit_navigator2"
+    },
+    {
+      "epoch": 1768291200,
+      "quest_id": "touch_butterflies_butterflyfields"
+    },
+    {
+      "epoch": 1768377600,
+      "quest_id": "emote_with_players"
+    },
+    {
+      "epoch": 1768377600,
+      "quest_id": "melt_10_darkstones"
+    },
+    {
+      "epoch": 1768377600,
+      "quest_id": "tidy_rain_grandmatable"
+    },
+    {
+      "epoch": 1768377600,
+      "quest_id": "world_quest_rain_cold"
+    }
+  ]
+}

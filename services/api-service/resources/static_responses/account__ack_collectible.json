@@ -1,0 +1,68 @@
+{
+  "collectibles": [
+    {
+      "candle_space": false,
+      "carrying": true,
+      "id": "butterfly",
+      "level": 2,
+      "permanent_level": 1,
+      "used": true
+    },
+    {
+      "candle_space": false,
+      "carrying": false,
+      "id": "cape",
+      "level": 2,
+      "permanent_level": 1,
+      "used": false
+    },
+    {
+      "candle_space": true,
+      "carrying": false,
+      "id": "flame",
+      "level": 1,
+      "permanent_level": 0,
+      "used": true
+    },
+    {
+      "candle_space": true,
+      "carrying": false,
+      "id": "home",
+      "level": 1,
+      "permanent_level": 0,
+      "used": true
+    },
+    {
+      "candle_space": true,
+      "carrying": false,
+      "id": "normal",
+      "level": 1,
+      "permanent_level": 0,
+      "used": true
+    },
+    {
+      "candle_space": false,
+      "carrying": false,
+      "id": "point",
+      "level": 2,
+      "permanent_level": 1,
+      "used": true
+    },
+    {
+      "candle_space": true,
+      "carrying": false,
+      "id": "sit",
+      "level": 1,
+      "permanent_level": 0,
+      "used": true
+    },
+    {
+      "candle_space": true,
+      "carrying": false,
+      "id": "skykid",
+      "level": 1,
+      "permanent_level": 0,
+      "used": true
+    }
+  ]
+}

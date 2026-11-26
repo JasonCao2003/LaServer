@@ -30,7 +30,7 @@ venv/
 .sky_*
 
 # Certificates and secrets
-/services/game-api/var/
+/services/api-service/var/
 *.pem
 *.key
 *.p12
@@ -38,11 +38,11 @@ venv/
 .env
 .env.*
 !.env.example
-/services/game-api/config/server.json
-/services/game-api/config/room_config.json
-/apps/admin/*.json
-/services/game-api/resources/static_responses/account__auth__login.json
-/services/game-api/resources/static_responses/starwatch__auth__api__v1__auth.json
+/services/api-service/config/server.json
+/services/api-service/config/room_config.json
+/services/panel-service/*.json
+/services/api-service/resources/static_responses/account__auth__login.json
+/services/api-service/resources/static_responses/starwatch__auth__api__v1__auth.json
 
 # Local editor and OS state
 .vscode/

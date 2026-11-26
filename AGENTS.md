@@ -7,14 +7,14 @@
 
 ## Project Structure & Module Organization
 
-- `services/game-api/` contains the Python Flask server. `index.py` initializes the application; `business/account/`, `business/admin/`, and `business/service/` hold endpoint and service code. Shared behavior lives in `business/helpers/`, with database models in `infrastructure/database/models.py`.
-- `services/game-api/resources/images/` and `services/game-api/resources/static_responses/` contain image assets and response fixtures. Treat database and runtime files as operational state.
-- `services/realtime-server/src/` contains the Node.js ES-module service, organized into `api`, `config`, `domain`, `protocol`, `services`, `session`, `transport`, and `observability`. Protocol adaptation notes are in `services/realtime-server/docs/`.
-- The admin client is in `apps/admin/admin_panel_client.py`; binary patch utilities are in `tools/patches/`. Edit active source files rather than `*.bak*`, `src.bak_*`, or archives under `bak/`.
+- `services/api-service/` contains the Python Flask server. `index.py` initializes the application; `business/account/`, `business/admin/`, and `business/service/` hold endpoint and service code. Shared behavior lives in `business/helpers/`, with database models in `infrastructure/database/models.py`.
+- `services/api-service/resources/images/` and `services/api-service/resources/static_responses/` contain image assets and response fixtures. Treat database and runtime files as operational state.
+- `services/room-service/src/` contains the Node.js ES-module service, organized into `api`, `config`, `domain`, `protocol`, `services`, `session`, `transport`, and `observability`. Protocol adaptation notes are in `services/room-service/docs/`.
+- The admin client is in `services/panel-service/admin_panel_client.py`; client API compatibility utilities are in `services/api-service/tools/patches/`. Edit active source files rather than `*.bak*`, `src.bak_*`, or archives under `bak/`.
 
 ## Build, Test, and Development Commands
 
-Run UDP commands from `services/realtime-server/` with Node.js 20 or newer:
+Run UDP commands from `services/room-service/` with Node.js 20 or newer:
 
 - `npm ci` installs dependencies from the lockfile.
 - `npm run dev` starts the service with file watching.
@@ -22,7 +22,7 @@ Run UDP commands from `services/realtime-server/` with Node.js 20 or newer:
 - `npm run check` checks syntax in `src/main.js` only.
 - `npm test` invokes Node's built-in test runner.
 
-From the repository root, use `python -u services/game-api/sky_boot.py` to launch the Python server on Windows; this bootstrap handles a documented WMI startup issue. Use `python apps/admin/admin_panel_client.py` for the admin client. No Python dependency manifest is present; use a prepared environment.
+From the repository root, use `python -u services/api-service/sky_boot.py` to launch the Python server on Windows; this bootstrap handles a documented WMI startup issue. Use `python services/panel-service/admin_panel_client.py` for the admin client. No Python dependency manifest is present; use a prepared environment.
 
 ## Coding Style & Naming Conventions
 
@@ -43,6 +43,6 @@ Never include private keys, credentials, account databases, or raw player packet
 
 ## Runtime Layout
 
-- Flask instance data is in `services/game-api/var/data/instance/`; the separate legacy database is in `services/game-api/var/data/legacy/`. Do not merge them.
-- Certificates and private keys are in `services/game-api/var/certs/`. Logs are in each service's `logs/` directory.
+- Flask instance data is in `services/api-service/var/data/instance/`; the separate legacy database is in `services/api-service/var/data/legacy/`. Do not merge them.
+- Certificates and private keys are in `services/api-service/var/certs/`. Logs are in each service's `logs/` directory.
 - Business imports use `business.helpers.<module>` and `infrastructure.database.models`; static response code is in `infrastructure.responses`, with data in `resources/static_responses/`.

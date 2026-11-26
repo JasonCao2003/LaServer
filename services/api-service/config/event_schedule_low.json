@@ -1,0 +1,211 @@
+{
+  "event_schedule": {
+    "valid_until": 2147483648,
+    "base_time": 1587366000,
+    "events": [
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_violin"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_qixi_couple"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_musicshop_sale"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_weekend_shop2"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_merchandise_sleep"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_moonlight"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_daily_reset_time"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_office_shop"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_ball_beach"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_summer"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_weekend_shop"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_cafe_open"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_pc_launch"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_nature_geyser"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_merchandise_live"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_transcendent_traveler"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_bloom"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_rosegarden_forever"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_rainbow"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_valentines_day"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_cafe"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_bloom_shop"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_bloom_sakura_fall"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_stadium_seat"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_musicshop"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_nature_2024"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "global_nature_2023"
+      },
+      {
+        "duration": "99999999",
+        "when": [
+          165715200
+        ],
+        "name": "visiting_vendor_showdance"
+      },
+      {
+        "duration": "43200",
+        "when": [
+          200134800
+        ],
+        "name": "global_halloween"
+      }
+    ]
+  }
+}

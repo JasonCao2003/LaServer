@@ -1,0 +1,11 @@
+{
+  "result": "ok",
+  "update_status_unlocks": [
+    {
+      "ack": false,
+      "name": "FirstSpiritGained",
+      "type": "level",
+      "unlocked_at": 0
+    }
+  ]
+}

@@ -1,0 +1,2644 @@
+{
+ "emotes": [
+  {
+   "name": "emote_upgrade_point_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654570099
+  },
+  {
+   "name": "emote_upgrade_thumbsup_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654571815
+  },
+  {
+   "name": "emote_upgrade_yawn_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654571820
+  },
+  {
+   "name": "emote_upgrade_wave_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654571824
+  },
+  {
+   "name": "emote_upgrade_butterfly_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654571828
+  },
+  {
+   "name": "emote_upgrade_laugh_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654571831
+  },
+  {
+   "name": "emote_upgrade_pout_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654573624
+  },
+  {
+   "name": "emote_upgrade_cold_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654573628
+  },
+  {
+   "name": "emote_upgrade_shy_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654573631
+  },
+  {
+   "name": "emote_upgrade_ohno_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654573634
+  },
+  {
+   "name": "emote_upgrade_proud_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654574982
+  },
+  {
+   "name": "emote_upgrade_strong_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654574986
+  },
+  {
+   "name": "emote_upgrade_come_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654586537
+  },
+  {
+   "name": "emote_upgrade_nothanks_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654586541
+  },
+  {
+   "name": "emote_upgrade_seek_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654729568
+  },
+  {
+   "name": "emote_upgrade_cry_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654729571
+  },
+  {
+   "name": "emote_upgrade_sorry_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654729573
+  },
+  {
+   "name": "emote_upgrade_whale_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654729578
+  },
+  {
+   "name": "emote_upgrade_manta_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654731286
+  },
+  {
+   "name": "emote_upgrade_handstand_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654731290
+  },
+  {
+   "name": "emote_upgrade_cheer_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654731293
+  },
+  {
+   "name": "emote_upgrade_backflip_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654732475
+  },
+  {
+   "name": "emote_upgrade_bow_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654732479
+  },
+  {
+   "name": "emote_upgrade_brave_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654734194
+  },
+  {
+   "name": "emote_upgrade_scared_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654734198
+  },
+  {
+   "name": "emote_upgrade_sneaky_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654734202
+  },
+  {
+   "name": "emote_upgrade_lookaround_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654734205
+  },
+  {
+   "name": "emote_upgrade_die_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654735399
+  },
+  {
+   "name": "emote_upgrade_salute_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654735402
+  },
+  {
+   "name": "emote_upgrade_float_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654740031
+  },
+  {
+   "name": "emote_upgrade_ghost_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654740034
+  },
+  {
+   "name": "emote_upgrade_force_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654740038
+  },
+  {
+   "name": "emote_upgrade_pray_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654740042
+  },
+  {
+   "name": "emote_upgrade_love_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654740046
+  },
+  {
+   "name": "emote_upgrade_bird_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654817078
+  },
+  {
+   "name": "emote_upgrade_beacon_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654817084
+  },
+  {
+   "name": "emote_upgrade_wipe_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654817089
+  },
+  {
+   "name": "emote_upgrade_hairtousle_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654822187
+  },
+  {
+   "name": "emote_upgrade_handshake_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654825380
+  },
+  {
+   "name": "emote_upgrade_headbob_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654825383
+  },
+  {
+   "name": "emote_upgrade_awww_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1654825386
+  },
+  {
+   "name": "emote_upgrade_think_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1659693780
+  },
+  {
+   "name": "emote_upgrade_think_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1659693794
+  },
+  {
+   "name": "emote_upgrade_think_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1659693809
+  },
+  {
+   "name": "emote_upgrade_think_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1659693812
+  },
+  {
+   "name": "emote_upgrade_silentclap_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667379365
+  },
+  {
+   "name": "emote_upgrade_conduct_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667379366
+  },
+  {
+   "name": "emote_upgrade_skip_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667379366
+  },
+  {
+   "name": "emote_upgrade_silentclap_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391722
+  },
+  {
+   "name": "emote_upgrade_conduct_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391726
+  },
+  {
+   "name": "emote_upgrade_skip_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391728
+  },
+  {
+   "name": "emote_upgrade_twirl_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391888
+  },
+  {
+   "name": "emote_upgrade_rhythmicclap_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391895
+  },
+  {
+   "name": "emote_upgrade_raisetheroof_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391944
+  },
+  {
+   "name": "emote_upgrade_armwave_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1667391951
+  },
+  {
+   "name": "emote_upgrade_point_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689208845
+  },
+  {
+   "name": "emote_upgrade_point_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689208845
+  },
+  {
+   "name": "emote_upgrade_point_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689208845
+  },
+  {
+   "name": "emote_upgrade_respect_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689211395
+  },
+  {
+   "name": "emote_upgrade_kungfu_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689321688
+  },
+  {
+   "name": "emote_upgrade_joy_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1689321703
+  },
+  {
+   "name": "emote_upgrade_chestpound_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1691059842
+  },
+  {
+   "name": "emote_upgrade_pointup_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1692343110
+  },
+  {
+   "name": "emote_upgrade_pointup_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1692343112
+  },
+  {
+   "name": "emote_upgrade_cry_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1693055546
+  },
+  {
+   "name": "emote_upgrade_cry_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1693055558
+  },
+  {
+   "name": "emote_upgrade_crabwalk_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1737348992
+  },
+  {
+   "name": "emote_upgrade_scheme_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scheme_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scheme_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scheme_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_slouch_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_slouch_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_slouch_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_slouch_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gloat_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gloat_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gloat_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gloat_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_stretch_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_stretch_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_stretch_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_stretch_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_beckon_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_beckon_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_beckon_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_beckon_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sneeze_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sneeze_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sneeze_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sneeze_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_voila_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_voila_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_voila_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_voila_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nerdy_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_babymanta_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pointup_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pointup_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_anxious_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_anxious_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_anxious_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_anxious_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wait_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wait_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wait_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wait_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ouch_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ouch_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ouch_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ouch_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_evillaugh_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_evillaugh_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_evillaugh_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_evillaugh_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_headbob_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_headbob_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_headbob_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_duetdance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_duetdance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_handshake_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_awww_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_awww_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_awww_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_armwave_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_armwave_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_armwave_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_raisetheroof_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_raisetheroof_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_raisetheroof_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_twirl_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_twirl_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_twirl_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rhythmicclap_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rhythmicclap_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rhythmicclap_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_penguindance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_penguindance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_silentclap_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_silentclap_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_conduct_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_conduct_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_skip_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_skip_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_plead_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_plead_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_plead_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_plead_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tiptoe_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tiptoe_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tiptoe_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tiptoe_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grief_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grief_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grief_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grief_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_injured_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_hackysack_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_hackysack_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_hackysack_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_hackysack_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_roll_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_roll_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_roll_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_roll_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_mope_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_mope_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_mope_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_mope_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pullup_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pullup_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pullup_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pullup_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_jollydance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_jollydance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_jollydance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_jollydance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_windpose_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_windpose_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_windpose_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_windpose_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_whistle_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_whistle_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_whistle_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_whistle_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_muscle_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_muscle_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_muscle_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_muscle_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_princesscarry_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_princesscarry_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_floatdance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_floatdance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_floatdance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_floatdance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_duetbow_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_duetbow_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_reading_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_reading_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_reading_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_spintrick_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_spintrick_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_spintrick_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_spintrick_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_reading_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_come_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_come_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_come_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nothanks_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nothanks_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nothanks_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_butterfly_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_butterfly_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_butterfly_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_laugh_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_laugh_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_laugh_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wave_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wave_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wave_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wave_05",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wave_06",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_yawn_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_yawn_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_yawn_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_thumbsup_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_thumbsup_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_thumbsup_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wipe_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wipe_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wipe_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cold_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cold_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cold_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cry_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cry_05",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cry_06",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sorry_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sorry_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sorry_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pout_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pout_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pout_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shy_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shy_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shy_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ohno_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ohno_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_ohno_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bow_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bow_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bow_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_backflip_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_backflip_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_backflip_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cheer_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cheer_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_cheer_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_handstand_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_handstand_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_handstand_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scared_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scared_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scared_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_die_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_die_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_die_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_lookaround_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_lookaround_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_lookaround_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salute_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salute_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salute_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_force_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_force_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_force_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_float_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_float_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_float_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pray_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pray_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_pray_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sass_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salutation_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salutation_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salutation_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_salutation_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sarcastic_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sarcastic_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sarcastic_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sarcastic_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_joy_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_joy_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_joy_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_acknowledge_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_acknowledge_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_acknowledge_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_acknowledge_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kungfu_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kungfu_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kungfu_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doublefive_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doublefive_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_lazycool_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tripleaxel_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tripleaxel_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tripleaxel_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tripleaxel_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_crabvoice_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shh_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shh_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shh_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shh_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_carry_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_carry_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_celebrate_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_celebrate_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_celebrate_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_celebrate_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_loopdance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_loopdance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_loopdance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_loopdance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sparkler_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sparkler_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sparkler_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_sparkler_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_wise_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dontgo_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dontgo_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dontgo_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dontgo_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_hairtousle_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_welcome_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_welcome_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_welcome_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_welcome_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kiss_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kiss_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kiss_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_kiss_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_juggle_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_juggle_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_juggle_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_juggle_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_respect_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_respect_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_respect_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nod_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nod_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nod_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_nod_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scare_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scare_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scare_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_scare_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doze_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doze_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doze_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_doze_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_crabwalk_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_crabwalk_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_crabwalk_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shrug_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shrug_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shrug_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_shrug_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_playfight_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_playfight_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_jelly_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_timid_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rally_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rally_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rally_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_rally_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grumpy_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grumpy_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grumpy_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_grumpy_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gratitude_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gratitude_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gratitude_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_gratitude_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bellyscratch_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bellyscratch_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bellyscratch_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bellyscratch_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_deepbreath_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_deepbreath_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_deepbreath_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_deepbreath_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dustoff_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dustoff_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dustoff_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_dustoff_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_balance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_balance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_balance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_balance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chestpound_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chestpound_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chestpound_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_showdance_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_showdance_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_showdance_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_showdance_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_peek_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_peek_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_peek_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_peek_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bearhug_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bearhug_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chuckle_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chuckle_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chuckle_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_chuckle_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bubbles_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bubbles_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bubbles_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_bubbles_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_marching_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_marching_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_marching_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_marching_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_facepalm_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_facepalm_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_facepalm_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_facepalm_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tsktsk_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tsktsk_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tsktsk_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_tsktsk_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_eww_01",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_eww_02",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_eww_03",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  },
+  {
+   "name": "emote_upgrade_eww_04",
+   "type": "spiritshop",
+   "ack": false,
+   "created_at": 1700000000
+  }
+ ]
+}

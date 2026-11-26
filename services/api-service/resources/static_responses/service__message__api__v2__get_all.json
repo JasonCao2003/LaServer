@@ -1,0 +1,81 @@
+{
+  "messages": [
+    {
+      "payload": {
+        "headers": {
+          "expires_at": 1722063540,
+          "from": "44e9f7e2-c9fb-4328-87d4-3544221856ce",
+          "has_attachments": true,
+          "id": "66919d2a610d74e457876227",
+          "sent_at": 1720818986,
+          "to": "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+          "type": "event"
+        },
+        "properties": {
+          "hasCurrencies": false,
+          "hasLinks": true,
+          "hasUnlocks": false
+        },
+        "subject": "SkyFest: A Huge 5th Birthday Party for Everyone!"
+      }
+    },
+    {
+      "payload": {
+        "headers": {
+          "expires_at": 1724309940,
+          "from": "44e9f7e2-c9fb-4328-87d4-3544221856ce",
+          "has_attachments": true,
+          "id": "66919d2a610d74e457876226",
+          "sent_at": 1720818986,
+          "to": "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+          "type": "update"
+        },
+        "properties": {
+          "hasCurrencies": false,
+          "hasLinks": true,
+          "hasUnlocks": false
+        },
+        "subject": "New Update: 0.26.0!"
+      }
+    },
+    {
+      "payload": {
+        "headers": {
+          "expires_at": 1723273140,
+          "from": "44e9f7e2-c9fb-4328-87d4-3544221856ce",
+          "has_attachments": true,
+          "id": "66919d2a610d74e457876225",
+          "sent_at": 1720818986,
+          "to": "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+          "type": "misc"
+        },
+        "properties": {
+          "hasCurrencies": false,
+          "hasLinks": true,
+          "hasUnlocks": false
+        },
+        "subject": "Linking Accounts to Save Your Game Progress"
+      }
+    },
+    {
+      "payload": {
+        "headers": {
+          "expires_at": 1723445940,
+          "from": "44e9f7e2-c9fb-4328-87d4-3544221856ce",
+          "has_attachments": true,
+          "id": "66919d2a610d74e457876224",
+          "sent_at": 1720818986,
+          "to": "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+          "type": "misc"
+        },
+        "properties": {
+          "hasCurrencies": false,
+          "hasLinks": true,
+          "hasUnlocks": false
+        },
+        "subject": "The Sky Web Store Has Opened!"
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,10 @@
+{
+  "delete_claimed_free_gift": 13198905963,
+  "get_buffs": [],
+  "get_buffs_sign": "56326f04d295593b791366257a2b07ef8dec36e3ea66d48613488e155932297f",
+  "result": "ok",
+  "set_app_badge_number": 4,
+  "update_currency": {
+    "heart_wax": 95
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "result": "ok",
+  "wing_buffs": [
+    {
+      "collected": true,
+      "deposit_id": 0,
+      "deposited": false,
+      "last_conversion": 0,
+      "name": "l_Dawn_0"
+    },
+    {
+      "collected": true,
+      "deposit_id": 0,
+      "deposited": false,
+      "last_conversion": 0,
+      "name": "l_Dawn_2"
+    }
+  ]
+}

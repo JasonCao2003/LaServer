@@ -1,0 +1,71 @@
+{
+  "get_remote_outfit": {
+    "arms": {
+      "id": 0,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "attitude": "0",
+    "body": {
+      "id": 1394323104,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "feet": {
+      "id": 1532093990,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "hair": {
+      "id": 2704502947,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "hat": {
+      "id": 1470462579,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "height": 1.259276498516485,
+    "horn": {
+      "id": 3886634356,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "mask": {
+      "id": 4267756678,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "neck": {
+      "id": 637137758,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "prop": {
+      "id": 772545524,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    },
+    "scale": 0.1086676991168552,
+    "seed": 42080,
+    "voice": 0,
+    "wing": {
+      "id": 441553228,
+      "mask": 0,
+      "pat": 0,
+      "tex": 0
+    }
+  },
+  "result": "ok",
+  "serendipity_types": []
+}

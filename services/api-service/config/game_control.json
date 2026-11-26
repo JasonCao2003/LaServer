@@ -1,0 +1,117 @@
+{
+  "season": {
+    "current_season": 2,
+    "season_unlock_name": "season_finish_02",
+    "start_time": 1789223908,
+    "duration_days": 70,
+    "force_end": false,
+    "convert_ratio": 1,
+    "finalize_currency": {
+      "candles": 300,
+      "heart": 300,
+      "heart_wax": 300,
+      "prestige": 300,
+      "prestige_vip": 300,
+      "prestige_wax": 300,
+      "season_candle": 300,
+      "season_wax": 308,
+      "season_wax_14": 300,
+      "vip": 0,
+      "wax": 0
+    }
+  },
+  "season_quests": {
+    "reward_season_candle": 1,
+    "reward_candle": 1,
+    "daily_pool": [
+      {
+        "daily_quest_def_id": "fetchlight_mind",
+        "stat_type": "fetchlight_mind_count"
+      },
+      {
+        "daily_quest_def_id": "pickup_30_wax",
+        "stat_type": "wax_pickup_count"
+      },
+      {
+        "daily_quest_def_id": "hug_someone",
+        "stat_type": "non_unique_hug_count"
+      },
+      {
+        "daily_quest_def_id": "save_a_spirit_in_night",
+        "stat_type": "night_collectibles_collected_count"
+      }
+    ]
+  },
+  "spirit_shops": {
+    "enabled": false,
+    "shops": []
+  },
+  "tcandles": {
+    "enabled": true,
+    "groups": {
+      "candles": {
+        "all_enable": false,
+        "auto": true,
+        "auto_count": 2,
+        "duration_seconds": 86400
+      },
+      "tcandle_master": {
+        "all_enable": false,
+        "auto": true,
+        "auto_count": 2,
+        "duration_seconds": 86400
+      }
+    }
+  },
+  "events": {
+    "enabled": false,
+    "_note": "false = 关闭全部活动(节日活动 + 先祖复刻活动); 保留当前赛季、季节向导任务、每日重置与烛火。见 get_event_schedule.py 的 _close_all_events"
+  },
+  "daily_quests": {
+    "season": {
+      "auto_random": true,
+      "count": 4,
+      "pool": [
+        {
+          "daily_quest_def_id": "world_quest_prairie_doublefive",
+          "stat_type": "world_quest_prairie_doublefive_count"
+        },
+        {
+          "daily_quest_def_id": "visit_rainbow_dusk",
+          "stat_type": "visit_rainbow_dusk_count"
+        },
+        {
+          "daily_quest_def_id": "meditate_prairie_butterfly",
+          "stat_type": "meditate_prairie_butterfly_count"
+        },
+        {
+          "daily_quest_def_id": "spirit_musicianrace1",
+          "stat_type": "spirit_musicianrace"
+        }
+      ]
+    },
+    "normal": {
+      "auto_random": true,
+      "count": 4,
+      "pool": [
+        {
+          "daily_quest_def_id": "meditate_rain_rainend",
+          "stat_type": "meditate_rain_rainend_count"
+        },
+        {
+          "daily_quest_def_id": "feast_snowball_hit_avatar",
+          "stat_type": "feast_snowball_avatar_hits"
+        },
+        {
+          "daily_quest_def_id": "world_quest_night_shh",
+          "stat_type": "world_quest_night_shh_count"
+        },
+        {
+          "daily_quest_def_id": "spirit_musicianrace3",
+          "stat_type": "spirit_musicianrace"
+        }
+      ]
+    },
+    "_last_token": "2026-10-23#0"
+  }
+}

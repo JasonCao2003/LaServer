@@ -1,0 +1,17 @@
+{
+  "currency": {
+    "candles": 11,
+    "prestige": 7,
+    "prestige_vip": 7,
+    "wax": 91
+  },
+  "result": "ok",
+  "update_unlocks": [
+    {
+      "ack": false,
+      "created_at": 0,
+      "name": "relationship_ability_ap06unlock_ap20_hug",
+      "type": "spiritshop"
+    }
+  ]
+}

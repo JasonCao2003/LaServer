@@ -1,0 +1,94 @@
+{
+  "batch_results": [
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171286,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171287,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171288,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171289,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171290,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 10,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171292,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171293,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 5,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171294,
+      "r": "ok",
+      "w": 30647
+    },
+    {
+      "cc": 1,
+      "cid": "",
+      "ct": "wax",
+      "id": 4283171295,
+      "r": "ok",
+      "w": 30647
+    }
+  ],
+  "currency": {
+    "candles": 11,
+    "wax": 91
+  },
+  "level_id": 2307461961,
+  "update_forge_rates": [
+    {
+      "current_level": 3,
+      "current_tier": 21,
+      "enabled": true,
+      "level_completion": 0.1265954900795329,
+      "level_tier_count": 5,
+      "level_tier_index": 0,
+      "reset_acknowledged": true,
+      "source_type": "wax",
+      "tier_completion": 0.6329774503976644
+    }
+  ]
+}

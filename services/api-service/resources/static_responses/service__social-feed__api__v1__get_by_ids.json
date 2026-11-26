@@ -1,0 +1,36 @@
+{
+  "feeds": [
+    {
+      "comments_enabled": true,
+      "create_at": 1720423209245,
+      "expire_at": 1720768809000,
+      "extra_data": {
+        "chunk_count": 0,
+        "ori": "(0,0.374,0,0.928)",
+        "pos": "(67.228,0.791,450.124)",
+        "prompt_used": "",
+        "resource_id": "",
+        "scale": "(1,1,1)",
+        "sub_type": 0
+      },
+      "message": "쉬다가세요 ",
+      "pool_name": "Dawn",
+      "pool_type": "SharedSpaceCandle",
+      "reactions": {
+        "is_poisoned": false,
+        "total_comment_count": 2,
+        "total_hide_count": 0,
+        "total_like_count": 12,
+        "total_like_reward_message_id": 0,
+        "total_report_count": 0,
+        "total_reported_comment_count": 0,
+        "total_super_like_count": 0
+      },
+      "social_feed_id": "1fe50726-1a07-460f-bf0b-a9204ef5b057:77c5915b",
+      "state": "normal",
+      "tags": null,
+      "user_id": "5b913eb2-1f05-4777-8665-59f8bbb94361"
+    }
+  ],
+  "result": "ok"
+}

@@ -1,0 +1,40 @@
+{
+  "currency": {
+    "candles": 149,
+    "event_candle_days_of_sky": 4,
+    "heart": 74,
+    "heart_wax": 250,
+    "prestige": 126,
+    "prestige_vip": 1515,
+    "prestige_wax": 1,
+    "season_candle": 6,
+    "season_candle_22": 143,
+    "season_wax": 0,
+    "season_wax_22": 3,
+    "vip": 2452,
+    "wax": 48
+  },
+  "has_season_quests_rewards": [
+    {
+      "daily_quest_def_id": "shoute_at_5_crabs",
+      "date": "2024-07-15",
+      "rewarded": true
+    },
+    {
+      "daily_quest_def_id": "send_a_gift",
+      "date": "2024-07-15",
+      "rewarded": true
+    },
+    {
+      "daily_quest_def_id": "visit_rainbow_dusk",
+      "date": "2024-07-15",
+      "rewarded": true
+    },
+    {
+      "daily_quest_def_id": "save_a_spirit_in_dusk",
+      "date": "2024-07-15",
+      "rewarded": true
+    }
+  ],
+  "season_quest_claim_result": "ok"
+}
