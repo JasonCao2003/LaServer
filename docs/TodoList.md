@@ -1,5 +1,13 @@
 # TodoList
 
+## 无桌面服务器启动请求监控窗口报错（2026-11-26）
+
+- 根因：API 入口直接导入依赖 Tkinter 的 GUI 模块，并在线程内无条件创建 `tk.Tk()`。Linux 无 `DISPLAY` 时抛出 `TclError`；解释器未安装 Tkinter 时会在入口导入阶段失败。
+- 修改位置：`services/api-service/index.py`、`infrastructure/monitoring/request_monitor_startup.py`、`infrastructure/monitoring/request_monitor_gui.py`（后两项相对 API 服务目录）。
+- 修复方法：API 使用不依赖 Tkinter 的启动入口；无 `DISPLAY` 的 Linux 直接跳过窗口；需要窗口时在线程内延迟导入 Tkinter，缺少 Tkinter 或 Tk 初始化失败只记录提示。原 GUI 模块保留启动函数导出；继续使用总线队列与实际监听端口，Windows/macOS 不要求 `DISPLAY`。请求监控中间件保持原有注册方式。
+- 验证：`PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s services/api-service/tests -v`，5 项通过（无桌面跳过、缺少 Tkinter、显示连接失败、桌面队列与端口传递、Windows 无 DISPLAY 使用共享队列）。在本机未安装 Tkinter 且移除 `DISPLAY` 的真实进程内调用启动函数，正常返回并输出跳过提示。真实桌面窗口和远端完整业务启动未验证；未启动服务或操作数据库。
+- 适用版本：当前 `services/api-service` 源码；远端旧目录 `services/game-api` 复用前需核对入口、监控模块路径与端口参数，不能只复制入口文件。此修复不处理 HTTPS 证书缺失。
+
 ## API 请求监控在端口顺延时错位（2026-11-25）
 
 - 现场证据：8443 与 8444 同时监听，8444 的服务进程持有标题为 `请求监控面板 :8443` 的窗口。旧实现按期望端口命名，多个进程还会轮询同一唤起标记。

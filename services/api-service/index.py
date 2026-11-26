@@ -278,7 +278,7 @@ if __name__ == '__main__':
     init_request_monitor(app)
 
     # ?????? GUI?????????????
-    from infrastructure.monitoring.request_monitor_gui import start_monitor_gui
+    from infrastructure.monitoring.request_monitor_startup import start_monitor_gui
 
     with app.app_context():
         db.create_all()

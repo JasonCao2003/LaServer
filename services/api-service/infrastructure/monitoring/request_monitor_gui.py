@@ -898,25 +898,7 @@ class RequestMonitorApp:
 # ============================================================
 # 供 index.py 直接调用的启动函数
 # ============================================================
-def start_monitor_gui(request_queue=None, *, port=None):
-    """在新线程中启动监控面板 (不阻塞服务器)"""
-    if request_queue is None:
-        # 走"总线"模块取队列: 热更新会 reload request_monitor_middleware, 但不会动
-        # request_monitor_bus, 所以面板与中间件永远是同一个队列对象(见 bus 模块头注释)。
-        try:
-            from infrastructure.monitoring.request_monitor_bus import request_log_queue
-            request_queue = request_log_queue
-        except Exception:
-            from infrastructure.monitoring.request_monitor_middleware import request_log_queue
-            request_queue = request_log_queue
-
-    def _run():
-        app = RequestMonitorApp(request_queue, port=port)
-        app.run()
-
-    t = threading.Thread(target=_run, daemon=True)
-    t.start()
-    return t
+from infrastructure.monitoring.request_monitor_startup import start_monitor_gui
 
 
 # ============================================================
